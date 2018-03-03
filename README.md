@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Welcome to SAP.how
 
-You can use the [editor on GitHub](https://github.com/SAPhow/SAP.how/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+_Please note, this is not an official SAP website. We have no connection to SAP company. For the official SAP website please see SAP.com._
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Organization
 
-### Markdown
+*SAP.how* is a non-profit organization, which goal is to help SAP professionals to be more effective by connecting their knowledge to each other and keeping it (knowledge) in easy to use form. As you could notice, we have no connection to SAP company, this is independent website of an independent organization. Another auxiliary goal is to create a community of friendly professionals eager to help each other to reach more. We welcome everyone who want to contribute to our community, this is why there is no need for registration to contribute to the wiki.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Non-profit structure means that we do not want to make profit, so (if it is avoidable) no ads, no extended subscriptions, no advertising articles.
 
-```markdown
-Syntax highlighted code block
+## The idea
 
-# Header 1
-## Header 2
-### Header 3
+Our founders believe that modern tools can empower ourselves to be more productive.
+Human brain isn't perfect, information once put there can be easily lost. And even more easily in SAP sphere. There is so much information, that it is impossible to keep it all in mind. This is why we make notes. Note is another less organised memory with less access speeds, but more reliable. Notes organised in modern cloud software can have faster speeds and can empower our productiveness significantly. Perfectly structured information (like this website we hope) can empower even more.
 
-- Bulleted
-- List
+And then imagine that this structured information is made and used by tens and hundreds of professionals. This is like collective intelligence. Not really, but a shared memory. It will help us to be the best and make the most.
+Another perspective for the wiki is a source of quick solution directions for beginners. Unfortunately there is not much accessible material for beginners and it can be very hard to get started with SAP consulting / development. We hope, that SAP.how will help to attract more talented beginners to the sphere.
 
-1. Numbered
-2. List
+## How do we make money?
 
-**Bold** and _Italic_ and `Code` text
+We don't.
 
-[Link](url) and ![Image](src)
-```
+We have enough resources from our founders support for the time being. If we would have to get more resources, we might ask for donations (similarly to Wikipedia) to keep the website fast and easily accessible.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Who are behind SAP.how?
 
-### Jekyll Themes
+SAP.how was created by Vasiliy Kharitonov in March 2017 on the weekends in his free time. Be sure, SAP.how is here and will be here for a long time. Vasiliy is highly integrated in SAP professional community, so he is interested in developing SAP.how. After he will no longer be able to engage much (which can happen), SAP.how will be passed to the most active community members.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SAPhow/SAP.how/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Contacts
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [SAP.how News - Telegram channel](https://t.me/saphow)
+- [Telegram supergroup (live chat)](https://t.me/joinchat/AAAAAELp3l6QtC28MD8w0A)
+- [SAP.how Twitter](https://twitter.com/wikiSAPhow)
