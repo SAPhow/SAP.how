@@ -1,4 +1,4 @@
-## Welcome to SAP.how
+# Welcome to SAP.how
 
 _Please note, this is not an official SAP website. We have no connection to SAP company. For the official SAP website please see SAP.com._
 
