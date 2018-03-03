@@ -1,3 +1,9 @@
+---
+title:  "How to enable Printer Determination for a custom PPF action?"
+date:   2018-03-03
+categories: articles, sap ewm
+---
+
 # How to enable Printer Determination for a custom PPF action?
 
 _Please note, this is not an official SAP website. We have no connection to SAP company. For the official SAP website please see SAP.com._
