@@ -4,7 +4,7 @@ _Please note, this is not an official SAP website. We have no connection to SAP 
 
 ## Organization
 
-**SAP.how** is a non-profit organization, which goal is to help SAP professionals to be more effective by connecting their knowledge to each other and keeping it (knowledge) in easy to use form. As you could notice, we have no connection to SAP company, this is independent website of an independent organization. Another auxiliary goal is to create a community of friendly professionals eager to help each other to reach more. We welcome everyone who want to contribute to our community, this is why there is no need for registration to contribute to the wiki.
+**SAP.how** is a non-profit organization, which goal is to help SAP professionals to be more effective by connecting their knowledge to each other and keeping it (knowledge) in easy to use form. As you could notice, we have no connection to SAP company, this is independent website of an independent organization. Another auxiliary goal is to create a community of friendly professionals eager to help each other to reach more. We welcome everyone who want to contribute to our community.
 
 Non-profit structure means that we do not want to make profit, so (if it is avoidable) no ads, no extended subscriptions, no advertising articles.
 
@@ -14,7 +14,7 @@ Our founders believe that modern tools can empower ourselves to be more producti
 Human brain isn't perfect, information once put there can be easily lost. And even more easily in SAP sphere. There is so much information, that it is impossible to keep it all in mind. This is why we make notes. Note is another less organised memory with less access speeds, but more reliable. Notes organised in modern cloud software can have faster speeds and can empower our productiveness significantly. Perfectly structured information (like this website we hope) can empower even more.
 
 And then imagine that this structured information is made and used by tens and hundreds of professionals. This is like collective intelligence. Not really, but a shared memory. It will help us to be the best and make the most.
-Another perspective for the wiki is a source of quick solution directions for beginners. Unfortunately there is not much accessible material for beginners and it can be very hard to get started with SAP consulting / development. We hope, that SAP.how will help to attract more talented beginners to the sphere.
+Another perspective for the website is a source of quick solution directions for beginners. Unfortunately there is not much accessible material for beginners and it can be very hard to get started with SAP consulting / development. We hope, that SAP.how will help to attract more talented beginners to the sphere.
 
 ## How do we make money?
 
