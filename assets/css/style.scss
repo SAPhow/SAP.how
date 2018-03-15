@@ -3,12 +3,12 @@
 
 @import "{{ site.theme }}";
 
-header, footer {
-  width: 200px;
-}
-
 @media all and (min-width: 961px) {
   /*styles for width more than narrow desktop browsers or iPad landscape */
+  header, footer {
+    width: 220px;
+  }
+  
   section {
     width: 600px;
   }
