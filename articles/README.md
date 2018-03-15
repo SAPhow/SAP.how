@@ -9,7 +9,7 @@
 
 ### Design
 
-- [How to stop RFC queue?](gui/support/rfc-monitoring.md)
+- [How to stop RFC queue?](gui/support/rfc-monitoring.md#how-to-stop-rfc-queue)
 - [How to reprocess iDoc?](gui/design/reprocess-idoc.md)
 
 ### Authorizations
