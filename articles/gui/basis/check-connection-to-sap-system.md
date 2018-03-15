@@ -1,3 +1,8 @@
+---
+Creation date: 2018-03-15
+Author: Vasiliy Kharitonov
+---
+
 # How to check connection to other SAP system?
 
 ## RFC connections
