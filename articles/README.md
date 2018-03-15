@@ -2,6 +2,10 @@
 
 ## SAP GUI
 
+### Settings
+
+- [How to set defaults for user parameters?](gui/settings/default-user-parameters.md)
+
 ### Support
 
 - [How to end stuck session?](gui/support/end-stuck-session.md)
