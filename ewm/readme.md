@@ -1,7 +1,5 @@
 # SAP EWM
 
-Data is being transferred from the old website.
-
 ## Contents
 
 - [Business functions](#business-functions)
@@ -13,6 +11,11 @@ Data is being transferred from the old website.
 - [Customizing](#customizing)
 
 ## Business functions
+
+- **[Goods tracing](functions/goods-tracing.md)** on pallet, pack or even individual piece level.
+- **Address storage**.
+- **Warehouse reporting**.
+- **Warehouse automation**.
 
 ## Documents
 
