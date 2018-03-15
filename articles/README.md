@@ -5,6 +5,7 @@
 ### Support
 
 - [How to end stuck session?](gui/support/end-stuck-session.md)
+- [How to monitor RFC integration?](gui/support/rfc-monitoring.md)
 
 ### Authorizations
 
