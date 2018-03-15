@@ -7,7 +7,7 @@ Author: Vasiliy Kharitonov
 
 Log of authorization errors can be seen via [SU53 transaction](/gui/transactions/su53.md).
 
-To check authorization errors for certain user:
+To check authorization errors for the certain user:
 
 1. Go to [SU53 transaction](/gui/transactions/su53.md).
 2. Press *Display for Different User* (F5).
