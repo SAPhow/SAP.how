@@ -2,9 +2,13 @@
 
 ## SAP GUI
 
+### Support
+
+- [How to end stuck session?](gui/support/end-stuck-session.md)
+
 ### Authorizations
 
-- [How to check for authorization errors?](/gui/authorizations/check-for-authorization-errors.md)
+- [How to check for authorization errors?](gui/authorizations/check-for-authorization-errors.md)
 
 ### Basis
 
