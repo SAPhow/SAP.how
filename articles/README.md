@@ -7,6 +7,11 @@
 - [How to end stuck session?](gui/support/end-stuck-session.md)
 - [How to monitor RFC integration?](gui/support/rfc-monitoring.md)
 
+### Design
+
+- [How to stop RFC queue?](gui/support/rfc-monitoring.md)
+- [How to reprocess iDoc?](gui/design/reprocess-idoc.md)
+
 ### Authorizations
 
 - [How to check for authorization errors?](gui/authorizations/check-for-authorization-errors.md)
