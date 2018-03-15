@@ -2,6 +2,16 @@
 
 Data is being transferred from the old website.
 
+## Contents
+
+- [Business functions](#business-functions)
+- [Documents](#documents)
+- [Warehouse processes](#warehouse processes)
+  - [Inbound](#inbound)
+  - [Outbound](#outbound)
+  - [Internal/common](#internalcommon)
+- [Customizing](#customizing)
+
 ## Business functions
 
 ## Documents
