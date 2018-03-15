@@ -9,6 +9,7 @@
 ### Basis
 
 - [How to check connection to other SAP system?](gui/basis/check-connection-to-sap-system.md)
+- [How to check if ADS is available?](gui/basis/check-ads-available.md)
 
 ## SAP EWM
 
