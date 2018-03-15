@@ -6,8 +6,6 @@ categories: articles, sap ewm
 
 # How to enable Printer Determination for a custom PPF action?
 
-_Please note, this is not an official SAP website. We have no connection to SAP company. For the official SAP website please see SAP.com._
-
 After creation of a custom PPF action for printing in EWM, checkbox for printer determination for the new action will not be active for changing. So only one certain printer can be set for printing.
 
 
