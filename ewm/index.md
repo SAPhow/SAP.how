@@ -2,7 +2,7 @@
 
 Data is being transferred from the old website.
 
-## Functions
+## Business functions
 
 ## Documents
 
@@ -13,5 +13,32 @@ Data is being transferred from the old website.
 - **Wave**
 - **[Handling unit](documents/handling-unit)** - including transportation unit.
 - **Vehicle**
+
+## Warehouse processes
+
+### Inbound
+
+- Production
+- Unloading from truck
+- Goods receipt
+- Putaway
+
+### Outbound
+
+- Staging
+- Value added services
+- Consumption to production
+- Loading
+- Goods issue
+
+### Internal/common
+
+- Dock appointment schedulling
+- Yard management
+- Goods movement
+- Material flow system (integration with PLCs)
+- Counting
+- Scrapping
+- Indirect labor
 
 ## Customizing
