@@ -25,7 +25,7 @@ Another perspective for the website is a source of quick solution directions for
 
 We don't.
 
-We have enough resources from our founders support for the time being. If we would have to get more resources, we might ask for donations (similarly to Wikipedia) to keep the website fast and easily accessible.
+We have enough resources from our founders support for the time being.
 
 ## Who are behind SAP.how?
 
