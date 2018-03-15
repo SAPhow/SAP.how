@@ -1,11 +1,11 @@
 # Welcome to SAP.how
 
-For useful content please use the following links:
+For **useful** content please use the following links:
 
 - [SAP EWM](ewm)
 - [Articles](articles)
 
-Or proceed to information about SAP.how below.
+Or continue to read information about SAP.how.
 
 ## Organization
 
