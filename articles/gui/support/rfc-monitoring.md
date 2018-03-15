@@ -15,7 +15,7 @@ RFC queue can be paused via transactions SMQS and SMQR for outbound and inbound 
 
 Select desired destination.
 Press *Deregistration* and confirm.
-Type for your destination will be changed from "R" to "U". Recorded (stopped) messages can be executed manually via transactions SMQ1 and SMQ2.
+Type for your destination will be changed from `R` to `U`. Recorded (stopped) messages can be executed manually via transactions SMQ1 and SMQ2.
 
 Stopped destination can be started again by performing *Registration*.
 
