@@ -7,8 +7,11 @@ header, footer {
   width: 200px;
 }
 
-section {
-  width: 600px;
+@media all and (min-width: 1024px) {
+  /*styles for narrow desktop browsers and iPad landscape */
+  section {
+    width: 600px;
+  }
 }
 
 ul li ul {
