@@ -1,6 +1,6 @@
 ---
-date:   2018-03-03
-author: Vasiliy Kharitonov
+Creation date: 2018-03-03
+Author: Vasiliy Kharitonov
 ---
 
 # How to enable Printer Determination for a custom PPF action?
