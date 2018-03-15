@@ -7,11 +7,11 @@ Data is being transferred from the old website.
 ## Documents
 
 - **[Warehouse request](documents/warehouse-request.md)** — including inbound delivery request, outbound delivery request, expected goods receipt (and notification), posting change request.
-- **[Delivery](documents/delivery)** — including inbound delivery, outbound delivery order, outbound delivery, posting change, production material request, stock transfer.
-- **[Warehouse order](documents/warehouse-order)**
-- **[Warehouse task](documents/warehouse-task)**
+- **[Delivery](documents/delivery.md)** — including inbound delivery, outbound delivery order, outbound delivery, posting change, production material request, stock transfer.
+- **[Warehouse order](documents/warehouse-order.md)**
+- **[Warehouse task](documents/warehouse-task.md)**
 - **Wave**
-- **[Handling unit](documents/handling-unit)** - including transportation unit.
+- **[Handling unit](documents/handling-unit.md)** - including transportation unit.
 - **Vehicle**
 
 ## Warehouse processes
