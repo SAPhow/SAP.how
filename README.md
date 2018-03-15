@@ -11,7 +11,7 @@ Or continue to read information about SAP.how.
 
 **SAP.how** is a non-profit organization, which goal is to help SAP professionals to be more effective by connecting their knowledge to each other and keeping it (knowledge) in easy to use form. As you could notice, we have no connection to SAP company, this is independent website of an independent organization. Another auxiliary goal is to create a community of friendly professionals eager to help each other to reach more. We welcome everyone who want to contribute to our community.
 
-Non-profit structure means that we do not want to make profit, so (if it is avoidable) no ads, no extended subscriptions, no advertising articles.
+Non-profit structure means that we do not want to make profit, so no ads, no extended subscriptions, no advertising articles.
 
 ## The idea
 
