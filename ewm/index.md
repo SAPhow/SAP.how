@@ -6,7 +6,7 @@ Data is being transferred from the old website.
 
 ## Documents
 
-- **[Warehouse request](documents/warehouse-request)** — including inbound delivery request, outbound delivery request, expected goods receipt (and notification), posting change request.
+- **[Warehouse request](documents/warehouse-request.md)** — including inbound delivery request, outbound delivery request, expected goods receipt (and notification), posting change request.
 - **[Delivery](documents/delivery)** — including inbound delivery, outbound delivery order, outbound delivery, posting change, production material request, stock transfer.
 - **[Warehouse order](documents/warehouse-order)**
 - **[Warehouse task](documents/warehouse-task)**
