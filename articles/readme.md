@@ -1,5 +1,11 @@
 # Articles
 
+## SAP GUI
+
+### Basis
+
+- [How to check connection to other SAP system?](gui/basis/check-connection-to-sap-system.md)
+
 ## SAP EWM
 
 ### Development
