@@ -6,7 +6,7 @@ Data is being transferred from the old website.
 
 - [Business functions](#business-functions)
 - [Documents](#documents)
-- [Warehouse processes](#warehouse processes)
+- [Warehouse processes](#warehouse-processes)
   - [Inbound](#inbound)
   - [Outbound](#outbound)
   - [Internal/common](#internalcommon)
