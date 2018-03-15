@@ -1,5 +1,17 @@
 # Articles
 
+## Contents
+
+- [SAP GUI](#sap-gui)
+  - [Settings](#settings)
+  - [Support](#support)
+  - [Design](#design)
+  - [Authorizations](#authorizations)
+  - [Basis](#basis)
+- [SAP EWM](#sap-ewm)
+  - [Management](#management)
+  - [Development](#development)
+
 ## SAP GUI
 
 ### Settings
@@ -27,6 +39,10 @@
 - [How to check if ADS is available?](gui/basis/check-ads-available.md)
 
 ## SAP EWM
+
+### Management
+
+- [How to align ERP with EWM?](ewm/management/erp-ewm-alignment.md)
 
 ### Development
 
