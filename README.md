@@ -35,4 +35,4 @@ SAP.how was created by Vasiliy Kharitonov in March 2017 on the weekends in his f
 
 - [SAP.how News - Telegram channel](https://t.me/saphow)
 - [Telegram supergroup (live chat)](https://t.me/joinchat/AAAAAELp3l6QtC28MD8w0A)
-- [SAP.how Twitter](https://twitter.com/wikiSAPhow)
+- [SAP.how Twitter](https://twitter.com/SAP_how)
