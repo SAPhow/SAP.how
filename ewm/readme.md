@@ -1,5 +1,7 @@
 # SAP EWM
 
+SAP Extended Warehouse Management.
+
 ## Contents
 
 - [Business functions](#business-functions)
