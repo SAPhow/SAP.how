@@ -15,7 +15,7 @@ Use SM37 transaction to check execution of background jobs. Following data is su
   - From (date) - *current date*
   - To (date) - *current date*
   
-*Execute* button will show all the launches of the program in a backgroun mode for a provided date.
+*Execute* button will show all the launches of the program in a background mode for a provided date.
 
 What could be interesting in the shown report:
 
