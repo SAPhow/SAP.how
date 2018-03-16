@@ -40,5 +40,6 @@ Existing of dumps for corresponding programs indicates that there are still issu
 
 ## Verified systems
 
+- SAP ERP 6.0
 - SAP EWM 9.4
 - SAP F&R 5.2
