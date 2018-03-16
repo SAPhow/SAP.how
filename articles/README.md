@@ -23,6 +23,7 @@
 - [How to end stuck session?](gui/support/end-stuck-session.md)
 - [How to monitor RFC integration?](gui/support/rfc-monitoring.md)
 - [When was the import of the request?](gui/support/when-was-import-of-request.md)
+- [How to monitor execution of background jobs?](gui/support/monitor-background-jobs.md)
 
 ### Design
 
