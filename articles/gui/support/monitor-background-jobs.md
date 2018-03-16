@@ -9,11 +9,11 @@ If you have some critical for business background jobs, it is a good idea to hav
 
 Use SM37 transaction to check execution of background jobs. Following data is suggested for selection screen.
 
-- Job Name - *job name*
+- Job Name — *job name*
 - User Name — `*`
 - Job Start Condition
-  - From (date) - *current date*
-  - To (date) - *current date*
+  - From (date) — *current date*
+  - To (date) — *current date*
   
 *Execute* button will show all the launches of the program in a background mode for a provided date.
 
