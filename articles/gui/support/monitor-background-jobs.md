@@ -25,7 +25,7 @@ What could be interesting in the shown report:
 
 ## Dumps
 
-Another useful thing for background jobs is the check for dumps (Dump - in a simple way - is when during execution of the program something bad happened and the system upon dying recorded the dump, i.e. all it's attributes and the place of an error. This will help to find/reproduce/correct the issue.). Dumps could be find in ST22 transaction. Following data is suggested for the selection screen:
+Another useful thing for background jobs is the check for dumps (Dump - in a simple way - is when during execution of the program something bad happened and the system upon dying recorded the dump, i.e. all it's attributes and the place of an error. This will help to find/reproduce/correct the issue.). Dumps could be found in ST22 transaction. Following data is suggested for the selection screen:
 
 - Start and End Date and time - date and time of the start and end of the background job (from the report from SM37 transaction). If you do not want to fill the selection screen you can use buttons *Today* and *Yesterday* — the system will show dumps for the current or the previous day.
 
