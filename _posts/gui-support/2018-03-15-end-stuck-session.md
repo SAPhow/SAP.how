@@ -1,6 +1,6 @@
 ---
 title: How to end stuck session?
-categories: gui gui-support
+categories: gui-support
 systems:
 - SAP EWM 9.4
 ---
