@@ -1,9 +1,11 @@
 ---
-Creation date: 2018-03-15
-Author: Vasiliy Kharitonov
+title: When was the import of the request?
+categories: gui gui-support
+systems:
+- SAP EWM 9.4
 ---
 
-# When was the import of the request?
+
 
 The time of transferring of the request can be checked in SE01 transaction.
 
@@ -15,7 +17,3 @@ The time of transferring of the request can be checked in SE01 transaction.
 6. Press on the button *Transport Logs* in the top menu (Ctrl+Shift+F2).
 
 Log overview will be shown on the screen with dates and times of Export and Import.
-
-## Verified systems
-
-- SAP EWM 9.4
