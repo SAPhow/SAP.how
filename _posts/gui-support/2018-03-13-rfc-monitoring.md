@@ -1,6 +1,6 @@
 ---
 title: How to monitor RFC integration?
-categories: gui-support
+categories: gui gui-support
 systems:
 - SAP EWM 9.4
 ---
