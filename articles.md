@@ -28,7 +28,7 @@
 
 ### Design
 
-{% for post in site.categories.gui.design %}
+{% for post in site.categories.gui-design %}
   - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
