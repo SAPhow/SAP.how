@@ -1,6 +1,6 @@
 ---
 title: How to reprocess iDoc?
-categories: gui gui-design
+categories: gui design
 systems:
 - SAP EWM 9.4
 ---
