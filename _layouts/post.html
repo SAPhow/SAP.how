@@ -5,7 +5,9 @@ layout: default
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
-<p class="view"><small>by {{ page.author | default: site.author }}</small></p>
+{% if page.author %}
+  <p class="view"><small>by {{ page.author }}</small></p>
+{% endif %}
 
 {{content}}
 
