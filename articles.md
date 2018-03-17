@@ -42,7 +42,7 @@
 ## SAP EWM
 
 {% for category in site.categories %}
-  ### {{ category }}
+  ### {{ category.title }}
   
   {% for page in category %}
     - [{{ page.title }}]({{ page.url }})
