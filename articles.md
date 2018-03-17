@@ -41,6 +41,15 @@
 
 ## SAP EWM
 
+{% for category in site.categories %}
+  ### {{ category }}
+  
+  {% for page in category %}
+    - [{{ page.title }}]({{ page.url }})
+  {% endfor %}
+  
+{% endfor %}
+
 ### Management
 
 - [How to align ERP with EWM?](ewm/management/erp-ewm-alignment.md)
