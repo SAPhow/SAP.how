@@ -48,5 +48,5 @@
 ### Development
 
 {% for post in site.categories[EWM-Development] %}
-  - [{{ post.title }}]({{ post.path }})
+  - [{{ post.title }}]({{ post.url | absolute_url }})
 {% endfor %}
