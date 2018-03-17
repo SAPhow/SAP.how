@@ -1,9 +1,11 @@
 ---
-Creation date: 2018-03-16
-Author: Vasiliy Kharitonov
+title: How to monitor execution of background jobs?
+categories: gui gui-support
+systems:
+- SAP ERP 6.0
+- SAP EWM 9.4
+- SAP F&R 5.2
 ---
-
-# How to monitor execution of background jobs?
 
 If you have some critical for business background jobs, it is a good idea to have support team monitoring them.
 
@@ -37,9 +39,3 @@ What could be interesting in the shown report:
 - **Time** of dump inside the execution time of the background job.
 
 Existing of dumps for corresponding programs indicates that there are still issues with the background job even if it has `Finished` status.
-
-## Verified systems
-
-- SAP ERP 6.0
-- SAP EWM 9.4
-- SAP F&R 5.2
