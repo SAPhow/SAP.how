@@ -11,6 +11,7 @@ SAP Extended Warehouse Management.
   - [Outbound](#outbound)
   - [Internal/common](#internalcommon)
 - [Customizing](#customizing)
+- [Articles](#articles)
 
 ## Business functions
 
@@ -61,5 +62,5 @@ SAP Extended Warehouse Management.
 ## Articles
 
 {% for post in site.categories.ewm %}
-- [post.title](post.url)
+- [{{post.title}}]({{post.url}})
 {% endfor %}
