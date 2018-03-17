@@ -1,6 +1,6 @@
 ---
 title: How to set defaults for user parameters?
-categories: gui gui-settings
+categories: gui-settings
 systems:
 - SAP EWM 9.4
 ---
