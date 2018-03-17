@@ -1,6 +1,6 @@
 ---
 title: How to enable Printer Determination for a custom PPF action?
-categories: ewm ewm-development
+categories: ewm-development
 systems:
   SAP EWM 9.4
 ---
