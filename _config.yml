@@ -5,4 +5,5 @@ plugins:
 collections:
   collections_dir: articles
   ewm-development:
+    layout: default
     output: true
