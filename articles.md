@@ -41,7 +41,7 @@
 
 ## SAP EWM
 
-  {% for page in site.collections.EWM %}
+  {% for page in site.categories.EWM-Development %}
     - [{{ page.title }}]({{ page.url }})
   {% endfor %}
 
