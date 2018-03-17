@@ -3,7 +3,7 @@
 For **useful** content please use the following links:
 
 - [SAP EWM](ewm)
-- [Articles](articles)
+- [Articles](articles.md)
 
 Or continue to read information about SAP.how.
 
