@@ -47,6 +47,6 @@
 
 ### Development
 
-{% for item in site.ewm-development %}
-  - [{{ item.title }}]({{ item.url }})
+{% for post in site.categories.ewm-development %}
+  - [{{ post.title }}]({{ post.url }})
 {% endfor %}
