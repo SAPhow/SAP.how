@@ -1,5 +1,6 @@
 ---
 title: How to enable Printer Determination for a custom PPF action?
+layout: post
 author: Vasiliy Kharitonov
 categories: ewm-development
 ---
