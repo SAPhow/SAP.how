@@ -7,3 +7,4 @@ collections:
   ewm-development:
     layout: default
     output: true
+    permalink: /:collection/:name
