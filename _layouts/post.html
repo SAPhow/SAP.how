@@ -9,6 +9,15 @@ layout: default
 
 {{content}}
 
+{% if page.systems %}
+  <h2>Verified systems</h2>
+
+  {% for system in page.systems %}
+    - {{system}} {{system.versions}}
+  {% endfor %}
+
+{% endif %}
+
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
