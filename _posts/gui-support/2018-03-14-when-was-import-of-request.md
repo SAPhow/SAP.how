@@ -1,6 +1,6 @@
 ---
 title: When was the import of the request?
-categories: gui gui-support
+categories: gui-support
 systems:
 - SAP EWM 9.4
 ---
