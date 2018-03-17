@@ -1,6 +1,6 @@
 ---
 title: How to check if ADS is available?
-categories: gui gui-basis
+categories: gui-basis
 systems:
 - SAP EWM 9.4
 ---
