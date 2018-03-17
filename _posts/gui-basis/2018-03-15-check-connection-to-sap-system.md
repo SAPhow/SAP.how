@@ -1,6 +1,6 @@
 ---
 title: How to check connection to other SAP system?
-categories: gui gui-basis
+categories: gui-basis
 systems:
 - SAP EWM 9.4
 ---
