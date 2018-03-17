@@ -1,6 +1,6 @@
 ---
 title: How to monitor execution of background jobs?
-categories: gui gui-support
+categories: gui-support
 systems:
 - SAP ERP 6.0
 - SAP EWM 9.4
