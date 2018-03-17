@@ -3,8 +3,8 @@ title: How to align ERP with EWM?
 author: Vasiliy Kharitonov
 categories: ewm-management
 systems:
-  SAP ERP 6.0
-  SAP EWM 9.4
+- SAP ERP 6.0
+- SAP EWM 9.4
 ---
 
 If ERP and EWM are not aligned (for example to one of the systems the data was copied from another system), these activities should help to bring everything in order.
