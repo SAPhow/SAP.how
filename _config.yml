@@ -3,6 +3,8 @@ url: "http://sap.how" # the base hostname & protocol
 plugins:
   - jekyll-sitemap
 collections_dir: articles
+collection:
+- ewm-development
 collections:
   ewm-development:
     output: true
