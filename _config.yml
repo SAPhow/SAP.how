@@ -2,9 +2,3 @@ theme: jekyll-theme-minimal
 url: "http://sap.how" # the base hostname & protocol
 plugins:
   - jekyll-sitemap
-collections:
-  collections_dir: articles
-  ewm-development:
-    layout: default
-    output: true
-    permalink: /:collection/:name
