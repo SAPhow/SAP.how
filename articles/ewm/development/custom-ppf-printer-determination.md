@@ -1,6 +1,7 @@
 ---
-Creation date: 2018-03-03
-Author: Vasiliy Kharitonov
+date: 2018-03-03
+author: Vasiliy Kharitonov
+categories: EWM-Development
 ---
 
 # How to enable Printer Determination for a custom PPF action?
