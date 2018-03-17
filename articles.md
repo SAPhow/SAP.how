@@ -41,9 +41,9 @@
 
 ## SAP EWM
 
-  {% for page in site.categories.EWM-Development %}
-    - [{{ page.title }}]({{ page.url }})
-  {% endfor %}
+{% for page in site.categories.EWM-Development %}
+  - [{{ page.title }}]({{ page.url }})
+{% endfor %}
 
 
 ### Management
