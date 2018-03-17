@@ -1,9 +1,9 @@
 ---
-Creation date: 2018-03-15
-Author: Vasiliy Kharitonov
+title: How to monitor RFC integration?
+categories: gui-support
+systems:
+- SAP EWM 9.4
 ---
-
-# How to monitor RFC integration?
 
 All RFC messages with errors are saved in queues in transactions SMQ1 and SMQ2 for outbound and inbound messages correspondingly. There, messages with errors can be seen with status text and executed again manually. Also, LUW container can be seen there with all information to be sent.
 
@@ -18,7 +18,3 @@ Press *Deregistration* and confirm.
 Type for your destination will be changed from `R` to `U`. Recorded (stopped) messages can be executed manually via transactions SMQ1 and SMQ2.
 
 Stopped destination can be started again by performing *Registration*.
-
-## Verified systems
-
-- SAP EWM 9.4
