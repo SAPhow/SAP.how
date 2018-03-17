@@ -1,12 +1,8 @@
 ---
 title: How to enable Printer Determination for a custom PPF action?
+date: 2018-03-03
 author: Vasiliy Kharitonov
 ---
-
-
-{% for category in page.categories %}
-  - {{ category }}
-{% endfor %}
 
 # How to enable Printer Determination for a custom PPF action?
 
