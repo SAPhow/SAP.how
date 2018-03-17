@@ -19,6 +19,3 @@ A filter with name of PPF action should be added to corresponding implementation
 - Implementation for **Printer Determination for Inventory** - /SCWM/PI_PRINT_DET.
 
 After filter is added the checkbox will become active.
-
-## Verified systems
-- SAP EWM 9.4
