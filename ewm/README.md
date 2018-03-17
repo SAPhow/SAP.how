@@ -57,3 +57,9 @@ SAP Extended Warehouse Management.
 - Indirect labor
 
 ## Customizing
+
+## Articles
+
+{% for post in site.categories.ewm %}
+- [post.title](post.url)
+{% endfor %}
