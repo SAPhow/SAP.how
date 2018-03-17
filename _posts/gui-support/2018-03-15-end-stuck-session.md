@@ -1,9 +1,9 @@
 ---
-Creation date: 2018-03-15
-Author: Vasiliy Kharitonov
+title: How to end stuck session?
+categories: gui gui-support
+systems:
+- SAP EWM 9.4
 ---
-
-# How to end stuck session?
 
 Stuck session can be ended via [SM04 transaction](../../../gui/transactions/sm04.md). To end the session:
 
@@ -11,7 +11,3 @@ Stuck session can be ended via [SM04 transaction](../../../gui/transactions/sm04
 2. Find corresponding session by user id, time or application and double click it.
 3. Select transaction in pop-up window.
 4. Press "Delete Session".
-
-## Verified systems
-
-- SAP EWM 9.4
