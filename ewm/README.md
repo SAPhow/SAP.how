@@ -61,6 +61,14 @@ SAP Extended Warehouse Management.
 
 ## Articles
 
-{% for post in site.categories.ewm %}
-- [{{post.title}}]({{post.url}})
+### Management
+
+{% for post in site.categories.ewm-management %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+### Development
+
+{% for post in site.categories.ewm-development %}
+  - [{{ post.title }}]({{ post.url }})
 {% endfor %}
