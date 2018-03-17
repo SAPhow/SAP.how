@@ -6,4 +6,3 @@ collections:
   collections_dir: articles
   ewm-development:
     output: true
-    permalink: /:collection/:name
