@@ -16,34 +16,41 @@
 
 ### Settings
 
-- [How to set defaults for user parameters?](gui/settings/default-user-parameters.md)
+{% for post in site.categories.gui-settings %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ### Support
 
-- [How to end stuck session?](gui/support/end-stuck-session.md)
-- [How to monitor RFC integration?](gui/support/rfc-monitoring.md)
-- [When was the import of the request?](gui/support/when-was-import-of-request.md)
-- [How to monitor execution of background jobs?](gui/support/monitor-background-jobs.md)
+{% for post in site.categories.gui-support %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ### Design
 
-- [How to stop RFC queue?](gui/support/rfc-monitoring.md#how-to-stop-rfc-queue)
-- [How to reprocess iDoc?](gui/design/reprocess-idoc.md)
+{% for post in site.categories.gui-design %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ### Authorizations
 
-- [How to check for authorization errors?](gui/authorizations/check-for-authorization-errors.md)
+{% for post in site.categories.gui-authorizations %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ### Basis
 
-- [How to check connection to other SAP system?](gui/basis/check-connection-to-sap-system.md)
-- [How to check if ADS is available?](gui/basis/check-ads-available.md)
+{% for post in site.categories.gui-basis %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ## SAP EWM
 
 ### Management
 
-- [How to align ERP with EWM?](ewm/management/erp-ewm-alignment.md)
+{% for post in site.categories.ewm-management %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
 
 ### Development
 
