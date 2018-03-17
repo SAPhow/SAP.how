@@ -41,14 +41,10 @@
 
 ## SAP EWM
 
-{% for category in site.categories %}
-  ### {{ category.title }}
-  
-  {% for page in category %}
+  {% for page in site.collections.EWM %}
     - [{{ page.title }}]({{ page.url }})
   {% endfor %}
-  
-{% endfor %}
+
 
 ### Management
 
