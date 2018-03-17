@@ -47,6 +47,6 @@
 
 ### Development
 
-{% for page in site.ewm-development %}
-  - [{{ page.title }}]({{ page.url }})
+{% for item in site.ewm-development %}
+  - [{{ item.title }}]({{ item.url }})
 {% endfor %}
