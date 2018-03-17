@@ -41,21 +41,12 @@
 
 ## SAP EWM
 
-{% for page in site.categories.EWM-Development %}
-  - [{{ page.title }}]({{ page.url }})
-{% endfor %}
-
-
 ### Management
 
 - [How to align ERP with EWM?](ewm/management/erp-ewm-alignment.md)
 
 ### Development
 
-{% for post in site.posts %}
+{% for post in site.categories.ewm-development %}
   - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-{% for page in site.pages %}
-  - [{{ page.title }}]({{ page.url }})
 {% endfor %}
