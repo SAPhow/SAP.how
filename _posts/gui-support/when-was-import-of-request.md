@@ -5,8 +5,6 @@ systems:
 - SAP EWM 9.4
 ---
 
-
-
 The time of transferring of the request can be checked in SE01 transaction.
 
 1. Open SE01 transaction.
