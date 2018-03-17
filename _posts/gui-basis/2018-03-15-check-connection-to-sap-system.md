@@ -1,9 +1,9 @@
 ---
-Creation date: 2018-03-15
-Author: Vasiliy Kharitonov
+title: How to check connection to other SAP system?
+categories: gui-basis
+systems:
+- SAP EWM 9.4
 ---
-
-# How to check connection to other SAP system?
 
 ## RFC connections
 
@@ -15,7 +15,3 @@ Connection between integrated by RFC SAP systems (for example, connection from E
 4. Go to Connection Test.
 
 It will execute ping function and output transfer times on the screen.
-
-## Verified systems
-
-- SAP EWM 9.4
