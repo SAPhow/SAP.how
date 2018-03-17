@@ -11,11 +11,11 @@ layout: default
 
 {% if page.systems %}
   <h2>Verified systems</h2>
-
+  <ul>
   {% for system in page.systems %}
-    - {{system}}
+    <li>{{system}}</li>
   {% endfor %}
-
+  </ul>
 {% endif %}
 
 {% if page.tags %}
