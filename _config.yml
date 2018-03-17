@@ -8,3 +8,4 @@ collections:
 collections:
   ewm-development:
     output: true
+    permalink: /:collection/:name
