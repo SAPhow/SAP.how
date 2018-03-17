@@ -1,9 +1,9 @@
 ---
-Creation date: 2018-03-15
-Author: Vasiliy Kharitonov
+title: How to reprocess iDoc?
+categories: gui-design
+systems:
+- SAP EWM 9.4
 ---
-
-# How to reprocess iDoc?
 
 ## Successfully processed iDocs
 
@@ -21,7 +21,3 @@ iDocs, that were processed with errors can be processed again via BD87 transacti
 2. Input selection parameters (dates or iDoc Number) and press *Execute* (F8).
 3. Expand subtrees and find corresponding iDoc.
 4. Select corresponding iDoc and press *Process Selected Node* (F8) in the to menu.
-
-## Verified systems
-
-- SAP EWM 9.4
