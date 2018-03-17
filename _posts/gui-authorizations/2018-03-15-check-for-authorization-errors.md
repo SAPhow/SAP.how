@@ -1,6 +1,6 @@
 ---
 title: How to check for authorization errors?
-categories: gui gui-authorizations
+categories: gui-authorizations
 systems:
 - SAP EWM 9.4
 ---
