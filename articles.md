@@ -48,5 +48,9 @@
 ### Development
 
 {% for post in site.posts %}
-  - [{{ post.title }}]({{ post.url | absolute_url }})
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+{% for page in site.pages %}
+  - [{{ page.title }}]({{ page.url }})
 {% endfor %}
