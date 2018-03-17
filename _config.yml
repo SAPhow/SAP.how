@@ -4,8 +4,6 @@ plugins:
   - jekyll-sitemap
 collections_dir: articles
 collections:
-  - ewm-development
-collections:
   ewm-development:
     output: true
     permalink: /:collection/:name
