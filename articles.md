@@ -20,8 +20,8 @@
 ## Latest articles
 
 {% for post in site.posts limit:5 %}
-  <h3>{{post.title}}</h3>
   <small>{{ post.date | date: "%-d %B %Y" }}</small>
+  <h3>{{post.title}}</h3>
   {{ post.excerpt }}
   <a href="{{post.url}}">More about {{post.title}}</a>
 {% endfor %}
