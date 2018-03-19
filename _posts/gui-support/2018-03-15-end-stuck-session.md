@@ -5,7 +5,7 @@ systems:
 - SAP EWM 9.4
 ---
 
-Stuck session can be ended via [SM04 transaction](/gui/transactions/sm04). To end the session:
+Stuck session can be ended via SM04 transaction. To end the session:
 
 1. Go to [SM04 transaction](/gui/transactions/sm04).
 2. Find corresponding session by user id, time or application and double click it.
