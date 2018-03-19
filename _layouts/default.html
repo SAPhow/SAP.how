@@ -27,6 +27,20 @@
         </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
+        <!--Google search-->
+        <script>
+          (function() {
+            var cx = '001174185636548076525:2x4ts4zwaqa';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+        <gcse:search></gcse:search>
+        
         <p>
           <a href="/ewm/">SAP EWM</a><br>
           <a href="/articles">Articles</a><br>
@@ -43,20 +57,6 @@
         {% endif %}
       </header>
       <section>
-        
-        <!--Google search
-        <script>
-          (function() {
-            var cx = '001174185636548076525:2x4ts4zwaqa';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-        </script>
-        <gcse:search></gcse:search>-->
 
       {{ content }}
 
