@@ -19,7 +19,7 @@
   <h3>{{post.title}}</h3>
   <small>{{ page.date | date: "%-d %B %Y" }}</small>
   {{ post.excerpt }}
-  <a href="{{post.url}}">More</a>
+  <a href="{{post.url}}">More about {{post.title}}</a>
 {% endfor %}
 
 ## SAP GUI
