@@ -18,10 +18,14 @@ ul li ul {
   margin: 0 0 0;
 }
 
-td.gsc-input {
+table.gsc-search-box td.gsc-input, table.gsc-search-box td.gsc-search-button {
   padding: 0 0 0 0;
 }
 
 div.gsc-control-cse {
   padding: 0 0 1em 0;
+}
+
+td.gsc-clear-button {
+  display: none;
 }
