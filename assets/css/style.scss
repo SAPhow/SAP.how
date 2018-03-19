@@ -36,6 +36,5 @@ td.gsc-clear-button {
 }
 
 input.gsc-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
-    opacity: 0; /* Firefox */
+    display: none;
 }
