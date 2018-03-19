@@ -34,3 +34,8 @@ table.gsc-search-box, div.gsc-control-wrapper-cse, td.gsc-input, td.gsc-search-b
 td.gsc-clear-button {
   display: none;
 }
+
+input.gsc-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0; /* Firefox */
+}
