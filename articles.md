@@ -1,5 +1,7 @@
 # Articles
 
+---
+
 ## Contents
 
 - [Latest articles](#latest-articles)
@@ -13,6 +15,8 @@
   - [Management](#management)
   - [Development](#development)
   
+---
+  
 ## Latest articles
 
 {% for post in site.posts limit:5 %}
@@ -21,6 +25,8 @@
   {{ post.excerpt }}
   <a href="{{post.url}}">More about {{post.title}}</a>
 {% endfor %}
+
+---
 
 ## SAP GUI
 
@@ -53,6 +59,8 @@
 {% for post in site.categories.gui-basis %}
   - [{{ post.title }}]({{ post.url }})
 {% endfor %}
+
+---
 
 ## SAP EWM
 
