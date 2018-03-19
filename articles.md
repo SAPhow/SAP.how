@@ -2,6 +2,7 @@
 
 ## Contents
 
+- [Latest articles](#latest-articles)
 - [SAP GUI](#sap-gui)
   - [Settings](#settings)
   - [Support](#support)
@@ -11,6 +12,15 @@
 - [SAP EWM](#sap-ewm)
   - [Management](#management)
   - [Development](#development)
+  
+## Latest articles
+
+{% for post in site.posts limit:5 %}
+  ### {{post.title}}
+  <small>{{ page.date | date: "%-d %B %Y" }}</small>
+  {{ post.excerpt }}
+  <a href="{{post.url}}">More</a>
+{% endfor %}
 
 ## SAP GUI
 
