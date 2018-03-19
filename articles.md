@@ -23,7 +23,7 @@
   — <small>{{ post.date | date: "%-d %B %Y" }}</small> —
   <h3>{{post.title}}</h3>
   {{ post.excerpt }}
-  <a href="{{post.url}}">More about {{post.title}}</a>
+  <a href="{{post.url}}">More about <cite>{{post.title}}</cite></a>
 {% endfor %}
 
 ---
