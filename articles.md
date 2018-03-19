@@ -17,7 +17,7 @@
 
 {% for post in site.posts limit:5 %}
   <h3>{{post.title}}</h3>
-  <small>{{ page.date | date: "%-d %B %Y" }}</small>
+  <small>{{ post.date | date: "%-d %B %Y" }}</small>
   {{ post.excerpt }}
   <a href="{{post.url}}">More about {{post.title}}</a>
 {% endfor %}
