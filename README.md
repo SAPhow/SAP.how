@@ -2,8 +2,8 @@
 
 For **useful** content please use the following links:
 
-- [SAP EWM](ewm)
-- [Articles](articles)
+- [SAP EWM](http://sap.how/ewm)
+- [Articles](http://sap.how/articles)
 
 Or continue to read information about SAP.how.
 
