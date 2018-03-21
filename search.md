@@ -1,6 +1,6 @@
 # Search results
 
-Sorry for the ads. We are figuring out how to apply for Custom Search for non profits without ads.
+Sorry for the ads. We are figuring out how to apply for Custom Search for non-profits (without ads).
 
 <script>
   (function() {
