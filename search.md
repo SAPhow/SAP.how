@@ -1,3 +1,5 @@
+# Search results
+
 <script>
   (function() {
     var cx = '001174185636548076525:2x4ts4zwaqa';
