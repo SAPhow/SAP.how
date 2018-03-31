@@ -23,4 +23,4 @@ ALV Grid will allow you to export to Excel and other formats, just press the but
 
 ![ALV Grid spreadsheet screenshot](/assets/i/2018/03/ALV-Grid-spreadsheet.png)
 
-**Note**, that the maximum number of hits in the table is `200` as standard for SE16. It is possible, that not all data is shown. You can change the maximum number of hits on the selection screen of the table.
+**Note**, the maximum number of hits in the table is `200` as standard for SE16. It is possible, that not all data is shown. You can change the maximum number of hits on the selection screen of the table.
