@@ -13,6 +13,6 @@ It is a good idea to make data backups of any objects with which you plan some a
 
 To change the view of your data in SE16 transaction, proceed to top menu *Setting*->*User Parameters..(F8)*.
 
-![Settings->UserParameters screenshot](http://sap.how/assets/i/2018/03/settings-user_parameters.png")
+![Settings->UserParameters screenshot](http://sap.how/assets/i/2018/03/settings-user_parameters.png)
 
 There you can change 
