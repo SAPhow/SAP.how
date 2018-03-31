@@ -19,7 +19,7 @@ There you can change output type to `ALV Grid Display`.
 
 ![UserParameters ALV Grid screenshot](/assets/i/2018/03/UserParameters-ALV-Grid.png)
 
-## Export to desireble format
+## Export to desirable format
 
 ALV Grid will allow you to export to Excel and other formats, just press the button *Speadsheet... (Ctrl+Shift+F7)*.
 
