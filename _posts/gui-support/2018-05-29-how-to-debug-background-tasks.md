@@ -12,7 +12,7 @@ Does your background task run too long? Did you try to understand why and failed
 
 Follow these simple steps to get to debug window.
 
-1. Go to SM50 transaction.
+1. Go to **SM50 transaction**.
 2. Find the Work Process corresponding to your background task, select it.
 3. Go in top menu to *Administration* -> *Program* -> *Debugging*.
 4. The debugging window will open (of course if you have enough authorizations) and you can dive into the code. 
