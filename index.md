@@ -21,7 +21,7 @@ For **useful** content please use the following links:
 </form>
 
 <div id="tipue_search_content">
-  Found content will show here.
+  Found content will be shown here.
 </div>
 
 <script>
