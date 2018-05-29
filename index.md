@@ -1,3 +1,11 @@
+---
+title: SAP.how
+description: "Search SAP.how"
+layout: page
+permalink: /
+tipue_search_active: true
+---
+
 # Welcome to SAP.how
 
 For **useful** content please use the following links:
