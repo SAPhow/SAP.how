@@ -7,8 +7,6 @@ tipue_search_active: true
 
 # Welcome to SAP.how
 
-For **useful** content please use the following links:
-
 - [SAP EWM](http://sap.how/ewm)
 - [Articles](http://sap.how/articles)
 
