@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 ---
 
-## Latest articles
+# Latest articles
 
 {% for post in site.posts limit:5 %}
   — <small>{{ post.date | date: "%-d %B %Y" }}</small> —
