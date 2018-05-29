@@ -32,6 +32,8 @@ $(document).ready(function() {
 
 ---
 
+---
+
 ## Latest articles
 
 {% for post in site.posts limit:5 %}
