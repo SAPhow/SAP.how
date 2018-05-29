@@ -12,6 +12,8 @@ For **useful** content please use the following links:
 - [SAP EWM](http://sap.how/ewm)
 - [Articles](http://sap.how/articles)
 
+---
+
 ## Search
 
 <form action="{{ page.url | relative_url }}">
