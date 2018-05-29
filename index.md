@@ -27,3 +27,12 @@ $(document).ready(function() {
   $('#tipue_search_input').tipuesearch();
 });
 </script>
+  
+## Latest articles
+
+{% for post in site.posts limit:5 %}
+  — <small>{{ post.date | date: "%-d %B %Y" }}</small> —
+  <h3>{{post.title}}</h3>
+  {{ post.excerpt }}
+  <a href="{{post.url}}">More about <cite>{{post.title}}</cite></a>
+{% endfor %}
