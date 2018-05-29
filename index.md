@@ -20,14 +20,18 @@ For **useful** content please use the following links:
   <div style="clear: both;"></div>
 </form>
 
-<div id="tipue_search_content"></div>
+<div id="tipue_search_content">
+  Found content will show here.
+</div>
 
 <script>
 $(document).ready(function() {
   $('#tipue_search_input').tipuesearch();
 });
 </script>
-  
+
+---
+
 ## Latest articles
 
 {% for post in site.posts limit:5 %}
