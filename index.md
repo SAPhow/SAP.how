@@ -1,7 +1,6 @@
 ---
 title: SAP.how
 description: "Search SAP.how"
-layout: page
 permalink: /
 tipue_search_active: true
 ---
