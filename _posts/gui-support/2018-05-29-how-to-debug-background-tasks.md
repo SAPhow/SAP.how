@@ -1,7 +1,7 @@
 ---
 title: How to debug background tasks?
 author: Vasiliy Kharitonov
-categories: ewm-management
+categories: gui-support
 systems:
 - SAP ERP 6.0
 - SAP EWM 9.4
