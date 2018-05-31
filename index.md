@@ -7,9 +7,6 @@ tipue_search_active: true
 
 # Welcome to SAP.how
 
-- [SAP EWM](http://sap.how/ewm)
-- [Articles](http://sap.how/articles)
-
 ## Search
 
 <form action="{{ page.url | relative_url }}">
