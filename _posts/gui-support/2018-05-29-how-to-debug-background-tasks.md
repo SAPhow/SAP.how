@@ -1,7 +1,9 @@
 ---
 title: How to debug background tasks?
 author: Vasiliy Kharitonov
-categories: gui-support, gui-design
+categories:
+- gui-support
+- gui-design
 systems:
 - SAP ERP 6.0
 - SAP EWM 9.4
