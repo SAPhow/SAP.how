@@ -1,16 +1,18 @@
-# Search results
+---
+title: Search
+description: "Search SAP.how"
+permalink: /
+tipue_search_active: true
+---
 
-Sorry for the ads. We are figuring out how to apply for Custom Search for non-profits (without ads).
+# Search
+
+<div id="tipue_search_content">
+  Found content will be shown here.
+</div>
 
 <script>
-  (function() {
-    var cx = '001174185636548076525:2x4ts4zwaqa';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
 </script>
-<gcse:searchresults-only></gcse:searchresults-only>
