@@ -6,3 +6,5 @@ permalink: /:categories/:title
 tipue_search:
   include:
     pages: true
+  exclude:
+    files: [index.md, articles.md, google9163b442a553abe1.html, ewm/README.md] 
