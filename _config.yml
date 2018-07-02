@@ -8,3 +8,6 @@ tipue_search:
     pages: true
   exclude:
     files: [index.md, articles.md, google9163b442a553abe1.html, ewm/README.md] 
+
+# Google Analytics
+google_analytics: UA-45730869-6
