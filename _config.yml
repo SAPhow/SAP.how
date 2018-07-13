@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-url: "http://sap.how" # the base hostname & protocol
+url: "https://sap.how" # the base hostname & protocol
 plugins:
   - jekyll-sitemap
 permalink: /:categories/:title
