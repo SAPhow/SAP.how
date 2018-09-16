@@ -9,17 +9,17 @@ systems:
 
 If ERP and EWM are not aligned (for example to one of the systems the data was copied from another system), these activities should help to bring everything in order.
 
-## 1. Decide on the way of alignment
+** 1. Decide on the way of alignment
 
 Usually it is much easier to copy data from other systems in the same landscape (of course if the data is aligned there). This way with one activity you will have completely aligned systems with almost no possibility of mistake. To do this, just ask you basis team to transfer data to ERP and EWM from aligned systems in the same time.
 
 Surely there could be times when it is not possible (or preferable) but still the systems should be aligned. And here this article should help. The first step is to draw a plan. Or just use the one below.
 
-## 2. Remove transactional data from EWM
+** 2. Remove transactional data from EWM
 
 This is a local EWM activity, that will close all ongoing activities and prepare the system for alignment.
 
-### 2.1. Complete or cancel all deliveries
+*** 2.1. Complete or cancel all deliveries
 
 Current deliveries have a high chance of creating misalignment in the future, so it is a good idea to complete them all first.
 
@@ -29,7 +29,7 @@ For outbound deliveries situation is the same - if it is easier to perform goods
 
 When you completed all deliveries, check if there are any open warehouse tasks. If there is any, it is a good idea to cancel them all.
 
-### 2.2. Remove all stock
+*** 2.2. Remove all stock
 
 EWM stock is not consistent with ERP stock. The good way to make it perfect is to remove it all and upload correct stock again based on data from ERP.
 
@@ -37,7 +37,7 @@ We already have an area-bin with the stock from deliveries completion/cancellati
 
 Also it is a good idea to delete/complete/cancel all current transportation units, especially if you have integration with ERP shipments. Again, it doesn’t really matter what will you do with them as long as they gone. 
 
-### 2.3. Delete all the bins
+*** 2.3. Delete all the bins
 
 This step is not necessary if you are sure, that bins in EWM are ok.
 
