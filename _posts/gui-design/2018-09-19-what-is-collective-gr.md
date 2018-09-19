@@ -10,7 +10,7 @@ Collective GR or Collective Goods Receipt is a customizing in EWM on business sy
 
 It is one of the options for Goods Receipt Mode and it's idea is to combine GR messages into one posting until GR for delivery header is completed.
 
-There is, however, an important restriction. **EWM will combine the goods receipt messages, unless there is other kind of messages** (to be sent to ERP). It means that as soon as we see another message, a partial GR will be sent to ERP system with what was received until this point. For another message we can have the following:
+There is, however, an important restriction. **EWM will combine the goods receipt messages, unless there is other kind of messages** (to be sent to ERP). It means that as soon as we see another message, a partial GR will be sent to ERP system with what was received up to this point. For another message we can have the following:
 - Posting changes for changing the stock type.
 - GR cancellation (even for partial quantity).
 - Completion of Putaway for one delivery position.
