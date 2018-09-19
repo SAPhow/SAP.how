@@ -6,7 +6,7 @@ systems:
 - SAP EWM 9.4
 ---
 
-Collective GR or Collective Goods Receipt is a customizing in EWM for integration with ERP on business system level. It is defined in IMG Activity `Set Control Parameters for ERP Version Control`.
+Collective GR or Collective Goods Receipt is a customizing in EWM on business system level for integration with ERP. It is defined in IMG Activity `Set Control Parameters for ERP Version Control`.
 
 It is one of the options for Goods Receipt Mode and it's idea is to combine GR messages into one posting until GR for delivery header is completed.
 
