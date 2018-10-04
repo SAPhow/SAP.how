@@ -25,10 +25,7 @@ I use the SAT transaction and suggest you to do the same. If you undestand, that
 
 If you are not sure what to use, it is better to start from SAT transaction.
 
-1. Go to SAT transaction.
-
-![SAT transaction](https://sap.how/assets/i/2018/09/sat.png "SAT transaction")
-
+1. Go to SAT transaction. ![SAT transaction](https://sap.how/assets/i/2018/09/sat.png "SAT transaction")
 2. Decide what you want to trace.
 
 To be continued...
