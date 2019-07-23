@@ -10,7 +10,7 @@ You could find some problems that are impossible to understand just using the de
 
 - long execution of system actions;
 - problems that occur very rare and it is hard to figure out the cause;
-- problems requiring to understand a full tree of ABAP stack, to know how many times some program was executed and where is was called from.
+- problems requiring to understand a full tree of ABAP stack, to know how many times some program was executed and where it was called from.
 
 ## Instruments to perform ABAP trace
 
