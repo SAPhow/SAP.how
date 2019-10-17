@@ -1,7 +1,9 @@
 ---
 title: How to check if there will be problems during transfer of the transport request?
 author: Vasiliy Kharitonov
-categories: gui-design, gui-support
+categories:
+- gui-design
+- gui-support
 systems:
 - SAP EWM 9.4
 - SAP S/4HANA 1809
