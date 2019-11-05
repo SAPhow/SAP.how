@@ -1,7 +1,5 @@
 # Articles
 
----
-
 ## Contents
 
 - [Latest articles](#latest-articles)
