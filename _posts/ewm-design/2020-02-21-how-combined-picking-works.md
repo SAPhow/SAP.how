@@ -8,10 +8,11 @@ systems:
 
 Functionality _combined picking_ first appeared in EWM 9.4 and can help you in
 cases where you need to pick multiple warehouse tasks from the same bin or
-handling unit. Basically, it combines multiple tasks to be processed as a
-single one. However, there are some important restrictions for using it.
+handling unit. Basically, for user it looks like multiple tasks has been combined 
+to be processed as a single one. However, there are some important restrictions
+for using it.
 
-The main restriction is that the task can only be combined if they are intended
+The main restriction is that the tasks can only be combined if they are intended
 for the same quant. In total they should have the same values for the following:
 
 - Source bin
@@ -30,9 +31,9 @@ uncombine them during the processing if the user chooses so.
 
 ## Enhancing for picking different batches
 
-There are a lot of business cases, where business wants to pick several batches
-in one action. As you saw earlier it is not possible to do it in standard. But
-there is a pretty easy way to do it with enhancement.
+There are a lot of business cases, where there is a need to pick several
+batches in one action. As you saw earlier it is not possible to do it in
+standard. But there is a pretty easy way to do it with an enhancement.
 
 ### Allow combining of multiple tasks with different batches
 
@@ -40,7 +41,7 @@ there is a pretty easy way to do it with enhancement.
 2. Check that this is a case relevant for your development.
 3. Empty `ORDIM_CONFIRM-BATCHID` and `TT_ORDIM_CONFIRM-BATCHID`.
 
-### Allow confirmation of multiple tasks with different batches
+### Allow confirmation of multiple tasks with different batches at the same time
 
 1. FM `/SCWM/RF_PICK_PICPMT_PB` needs to be enhanced (from my point of view it
 is easier to create a custom version of corresponding FM and use it with RF
