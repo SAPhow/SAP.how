@@ -10,6 +10,7 @@
   - [Authorizations](#authorizations)
   - [Basis](#basis)
 - [SAP EWM](#sap-ewm)
+  - [Design](#ewm-design)
   - [Management](#management)
   - [Development](#development)
   
@@ -61,6 +62,13 @@
 ---
 
 ## SAP EWM
+
+
+### EWM Design
+
+{% for post in site.categories.ewm-design %}
+  - [{{ post.title }}]({{ post.url }})
+  {% endfor %}
 
 ### Management
 
