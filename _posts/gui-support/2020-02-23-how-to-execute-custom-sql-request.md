@@ -13,7 +13,8 @@ Command Editor_. There you can provide your query in the textarea _Input Query_.
 Then press _Execute_ (F8) to send it to the database.
 
 E.g. query `SELECT COUNT(*) FROM "/SCWM/ORDIM_C" WHERE “LGNUM”='0001'` will
-show how many completed tasks there are in the warehouse number `0001`.
+show how many completed tasks there are in the warehouse number `0001` (SAP
+EWM).
 
 This can be useful to create complex reports with joints of multiple tables 
 automatically analyzing data with the certain perspective. Result can be 
