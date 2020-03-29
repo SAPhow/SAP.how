@@ -10,7 +10,7 @@ systems:
 ---
 
 Imagine, you could automatically test any change you (or your developer) made.
-And not just small isolated tests, you could immediately check if **any*** of
+And not just small isolated tests, you could immediately check if **any** of
 enhanced functionality is impacted. Sounds like magic but it is already an
 industry standard in other development environments. If someone makes a small
 logic mistake this magic immediately shows that something is wrong. With
