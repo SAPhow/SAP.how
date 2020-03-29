@@ -58,10 +58,10 @@ This is essential for good test driven design. With good technical architecture,
 you will be able to replace these “integration" objects with some hardcoded test
 objects (SAP calls them test doubles). These test doubles should help produce
 some static calculated results and also keep your real database safe. You can
-use dependency lookup injection to replace objects of classes with test doubles.
-It is a good practice to make both real class and test double class implementing
-the same custom interface. There are many reasons for it, but it is a topic for
-detailed article (part 2?).
+use dependency lookup injection to replace objects of real classes with test
+doubles. It is a good practice to make both real class and test double class
+implementing the same custom interface. There are many reasons for it, but it is
+a topic for detailed article (part 2?).
 
 Then your unit tests should be written by developers. Actually it is even better
 to first write unit tests and only then start your development. This way
