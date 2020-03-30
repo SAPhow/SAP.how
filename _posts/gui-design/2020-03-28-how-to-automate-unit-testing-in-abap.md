@@ -9,6 +9,13 @@ systems:
 - SAP S/4HANA 1809
 ---
 
+> Code without tests is bad code. It doesn’t matter how well-written it is; it
+> doesn’t matter how pretty or object-oriented or well-encapsulated it is. With
+> tests, we can change the behavior of our code quickly and verifiably. Without
+> them, we really don’t know if our code is getting better or worse.
+>
+> -- <cite>Michael Feathers, Working Effectively with Legacy Code</cite>
+
 Imagine, you could automatically test any change you (or your developer) made.
 And not just small isolated tests, you could immediately check if **any** of
 enhanced functionality is impacted. Sounds like magic but it is already an
@@ -58,7 +65,8 @@ This is essential for good test driven design. With good technical architecture,
 you will be able to replace these “integration" objects with some hardcoded test
 objects (SAP calls them test doubles). These test doubles should help produce
 some static calculated results and also keep your real database safe. You can
-use dependency lookup injection to replace objects of real classes with test
+use dependency lookup injection to replace objects of real 
+classes with test
 doubles. It is a good practice to make both real class and test double class
 implementing the same custom interface. There are many reasons for it, but it is
 a topic for detailed article (part 2?).
