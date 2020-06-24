@@ -54,7 +54,7 @@ transactions will be managed here and regularly updated.
 | **TCode**   | **Name**                          | **Description**                                                                                                       |
 | ----------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | `SCMP`      | View/Table Comparison             | [Compare a single database table content between 2 systems](https://sap.how/gui-basis/compare-customzing-tables).     |
-| `SCU0`      | Customizing Cross-System Viewer   | [Compare multiple database tables contents between 2 systems](https://sap.how/gui-basis/compare-customzing-tables).   |
+| `SCU0`      | Customizing Cross-System Viewer   | [Compare multiple database table contents between 2 systems](https://sap.how/gui-basis/compare-customzing-tables).   |
 | `SE39`      | ABAP Split Screen Editor          | Compare a certain development object between 2 systems or different objects in one system.                            |
 | `SREPO`     | Repository Comparison             | Compare multiple (or all) development objects between 2 systems.                                                      |
 
@@ -126,7 +126,7 @@ transactions will be managed here and regularly updated.
 | `WE19`      | Test tool                         | IDoc test tool. Simulate receiving of new IDocs based on existing ones. Field/values can be changed before sending. |
 
 
-# Automation
+## Automation
 
 | ----------- | ---------------------------       | ----------------------------------------------------------------------------- |
 | **TCode**   | **Name**                          | **Description**                                                               |
