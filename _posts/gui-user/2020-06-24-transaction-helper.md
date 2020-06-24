@@ -9,6 +9,19 @@ keep it in memory, so I have a written note. I think others might find it useful
 as well, so I am moving it here. From now on my note with most useful GUI
 transactions will be managed here and regularly updated.
 
+## Contents
+
+- [System monitoring](#system-monitoring)
+- [Transport functionality](#transport-functionality)
+- [Comparison and alignment](#comparison-and-alignment)
+- [Search and research](#search-and-research)
+- [Authorizations and user management](#authorizations-and-user-management)
+- [Customizing and settings](#customizing-and-settings)
+- [Background jobs](#background-jobs)
+- [Debugging and tracing](#debugging-and-tracing)
+- [Automation](#automation)
+
+
 ## System monitoring
 
 | -----------   | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +76,7 @@ transactions will be managed here and regularly updated.
 | -----------    | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **TCode**      | **Name**                            | **Description**                                                                                                                                                         |
 | -----------    | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `CODE_SCANNER` | ABAP Search                         | Holy Grail for highly customized systems. Search ABAP code in package or cross system by text.                                                                          |
+| `CODE_SCANNER` | ABAP Search                         | Holy Grail for highly customized systems. Search ABAP code in package or across system by text.                                                                          |
 | `SE11`         | ABAP Dictionary Maintenance         | Research tables, views, data types, domains, type groups. Used to search where they are used as well.                                                                   |
 | `SE16`         | Data Browser                        | View database table contents. Used to change table contents as well.                                                                                                    |
 | `SE18`         | Business Add-Ins: Definitions       | Look for extension points (BAdIs). Browse existing implementations for a certain BAdI.                                                                                  |
