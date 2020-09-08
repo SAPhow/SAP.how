@@ -20,6 +20,7 @@ transactions will be managed here and regularly updated.
 - [Background jobs](#background-jobs)
 - [Debugging and tracing](#debugging-and-tracing)
 - [Automation](#automation)
+- [Basis settings](#basis-settings)
 
 
 ## System monitoring
@@ -149,3 +150,9 @@ transactions will be managed here and regularly updated.
 | `SHDB`      | Batch Input Transaction Recorder  | Record and execute macroses.                                                  |
 | `SQ01`      | SAP Query: Maintain queries       | Create custom reports with SAP Queries.                                       |
 
+## Basis settings
+
+| ----------- | ---------------------------       | ----------------------------------------------------------------------------- |
+| **TCode**   | **Name**                          | **Description**                                                               |
+| ----------- | ---------------------------       | ----------------------------------------------------------------------------- |
+| `RZ11`      | Profile Parameter Maintenance     | Changing Profile Parameters Dynamically.                                      |
