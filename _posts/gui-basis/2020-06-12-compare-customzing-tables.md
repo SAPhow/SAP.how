@@ -7,7 +7,8 @@ author: Vasiliy Kharitonov
 In case you have a complex layout with 2 or more systems, there is always a need
 to make sure they are aligned. And they usually should be aligned in both,
 customizing and workbench objects. In this article we are focusing on
-customizing.
+customizing. [Click here](how-to-compare-objects-between-systems) if you want
+to compare workbench objects.
 
 ## Transaction `SCMP`
 
@@ -84,3 +85,7 @@ To compare all customizing between 2 systems perform the following actions.
    - `ML` to the left of the row indicates that keys exist in both systems, but
      values for them are different. It indicates values for keys in source
      system.
+
+## You might also be interested in
+
+- [How to compare objects between 2 systems](how-to-compare-objects-between-systems)
