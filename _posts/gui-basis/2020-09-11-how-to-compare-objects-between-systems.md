@@ -7,7 +7,8 @@ author: Vasiliy Kharitonov
 In case you have a complex layout with 2 or more systems, there is always a need
 to make sure they are aligned. And they usually should be aligned in both,
 customizing and workbench objects. In this article we are focusing on
-workbench objects.
+workbench objects. [Click here](compare-customizing-tables) if you want to
+compare customizing tables.
 
 ## Transaction `SE39`
 
