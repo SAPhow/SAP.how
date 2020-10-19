@@ -7,7 +7,7 @@ author: Vasiliy Kharitonov
 In case you have a complex layout with 2 or more systems, there is always a need
 to make sure they are aligned. And they usually should be aligned in both,
 customizing and workbench objects. In this article we are focusing on
-workbench objects. [Click here](compare-customizing-tables) if you want to
+workbench objects. [Click here](/gui-basis/compare-customizing-tables) if you want to
 compare customizing tables.
 
 ## Transaction `SE39`
@@ -61,4 +61,4 @@ To perform comparison:
 
 ## You might also be interested in
 
-- [How to compare customizing tables between 2 systems?](compare-customzing-tables)
+- [How to compare customizing tables between 2 systems?](/gui-basis/compare-customizing-tables)
