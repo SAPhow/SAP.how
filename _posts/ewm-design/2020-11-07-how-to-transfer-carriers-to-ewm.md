@@ -17,14 +17,14 @@ will fall in the corresponding error.
 There are two ways to fix it - right and wrong. The wrong way
 would be to manually add carrier role for partner in EWM in the
 transaction `BP`. It will fix the issue, but as ERP is the source
-of truth for the business partners, so you will need to do this 
+of truth for the business partners, you will need to do this 
 again for the new partners or even for existing ones if something
 changes.
 
 For this reason it is better to fix it on ERP side. You need to
 explicitly provide information which vendors are also carriers,
 so integration model will transfer them as ones. To do this you
-use Accound group. As prerequisite you should be able to define
+use Account group. As prerequisite you should be able to define
 all carriers using one or multiple account groups. Then you need
 to perform customizing.
 
