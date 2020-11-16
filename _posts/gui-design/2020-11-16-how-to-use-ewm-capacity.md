@@ -27,7 +27,8 @@ _Check according to Key Figure Packaging Material_.
 3. Set some value to the _Capacity consumption_ attribute for units of measure
 of material you want to restrict. If you want to restrict the number of HUs
 stored in the bin, set _Capacity consumption_ for the base unit of measure for
-packaging material, that will be used to create HUs.
+packaging material, that will be used to create HUs. The field should be filled
+on EWM side, you can use transaction `/SCWM/MAT1` _Warehouse product Maintenance_ or Warehouse Monitor to update it massively (Report _Product Master Data -> Warehouse Attribute -> Unit of Measure_).
 
 > **Note:** Change in capacity of packaging material doesn't change capacity
 > of existing HUs or TUs. New value will be used for new HUs, and old HUs
