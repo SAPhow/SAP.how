@@ -1,8 +1,6 @@
 ---
 title: How to count SAP EWM delivery items in an existing system?
-categories:
-- ewm-basis
-- ewm-design
+categories: ewm-basis
 author: Vasiliy Kharitonov
 systems:
 - SAP EWM 9.4
