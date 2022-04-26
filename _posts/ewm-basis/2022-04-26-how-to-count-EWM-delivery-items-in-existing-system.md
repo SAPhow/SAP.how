@@ -1,10 +1,12 @@
 ---
 title: How to count SAP EWM delivery items in an existing system?
-categories: ewm-basis
+categories:
+- ewm-basis
+- ewm-design
 author: Vasiliy Kharitonov
 systems:
-	SAP EWM 9.4
-	SAP S/4HANA 2021
+- SAP EWM 9.4
+- SAP S/4HANA 2021
 ---
 
 In the new version of SAP EWM the main metric to understand hosting (for cloud
