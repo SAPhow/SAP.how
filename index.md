@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 # Latest articles
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:10 %}
   — <small>{{ post.date | date: "%-d %B %Y" }}</small> —
   <h3>{{post.title}}</h3>
   {{ post.excerpt }}

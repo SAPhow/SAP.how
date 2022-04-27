@@ -44,7 +44,7 @@ them. How to understand the metric **per warehouse** number?
 ---
 
 The solution to these problems is the table `/SCWM/DLVCNTRAW`, --- the one that
-is intended to be used by SAP when they perform audit. The table contains
+is intended to be used by SAP when they perform audits. The table contains
 counters for delivery items per warehouse per day, so it is useful for
 performing all kinds of reports.
 
