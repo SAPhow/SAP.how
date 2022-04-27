@@ -44,23 +44,23 @@ them. How to understand the metric **per warehouse** number?
 ---
 
 The solution to these problems is the table `/SCWM/DLVCNTRAW`, --- the one that
-intended to be used by SAP when they perform audit. The table contains counters
-for delivery items per warehouse per day, so it is useful for performing all
-kind of reports.
+is intended to be used by SAP when they perform audit. The table contains
+counters for delivery items per warehouse per day, so it is useful for
+performing all kinds of reports.
 
-If you want to count an average delivery items per year, you select all records
-for a year, sum up the column `COUNTER` and divide it by 365 (days in a year),
---- voila! You have an average number of items per day for a whole year.
+If you want to count a number of delivery items on average per year, you select
+all records for a year, sum up the column `COUNTER` and divide it by 365 (days
+in a year), --- voila! You have an average number of items per day for a whole
+year.
 
 However, if your business has seasonality, you might want to consider
-calculating the metric monthly and then use number from the biggest month. Or
+calculating the metric monthly and then use a number from the biggest month. Or
 you might want to do it per warehouse: you can use the same table.
 
 Another benefit is that the table includes already archived data. However,
 there seems to be its own archiving: the table holds only 24 months of data.
 
-**Note:** use the metric at your own risk. I wasn't able to receive 100%
+**Note:** Use the metric at your own risk. I wasn't able to receive 100%
 confirmation from SAP on how to actually calculate the metric. Moreover, I
 received some contradicting messages. I suggest you to look for all existing
-options before coming to the same conclusion: this is the best way to calculate
-it.
+options before coming to the same conclusion: this is the best way to do it.
