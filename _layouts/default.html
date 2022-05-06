@@ -1,41 +1,23 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% seo %}
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width">
+    
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-    
-    <!--Tipue Search-->
-    {% if page.tipue_search_active or layout.tipue_search_active %}
-    <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/normalize.css" | relative_url }}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
-    <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
-    <script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
-    <script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
-    {% endif %}
-
-    <!--Icons and Favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    
+    {% include head-custom.html %}
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}">
+        <a href="{{ "/" | absolute_url }}">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="170" height="30" viewBox="0, 0, 170, 30">
             <path d="M3.729,21.583 Q1.875,20.667 0.937,19.5 Q0,18.333 0,17.625 Q0,17.25 0.292,17.021 Q0.583,16.792 0.916,16.792 L1.542,16.792 Q1.834,16.792 2.02,16.897 Q2.209,17 2.458,17.334 Q3.375,18.625 4.688,19.354 Q6,20.084 8.291,20.084 Q10.875,20.084 12.458,19.104 Q14.042,18.125 14.042,16.292 Q14.042,15.167 13.396,14.459 Q12.75,13.751 11.312,13.229 Q9.875,12.709 7.042,12.042 Q3.333,11.209 1.979,9.751 Q0.625,8.292 0.625,6.042 Q0.625,4.5 1.479,3.125 Q2.334,1.75 4.021,0.875 Q5.708,0 8.083,0 Q10.583,0 12.313,0.854 Q14.042,1.709 14.896,2.833 Q15.75,3.959 15.75,4.667 Q15.75,5.042 15.479,5.271 Q15.208,5.501 14.833,5.501 L14.208,5.501 Q13.625,5.501 13.292,4.958 Q12.458,3.709 11.396,3.062 Q10.333,2.417 8.083,2.417 Q5.667,2.417 4.417,3.417 Q3.166,4.417 3.166,6.042 Q3.166,7.042 3.667,7.709 Q4.166,8.375 5.542,8.937 Q6.917,9.5 9.542,10.083 Q13.417,10.959 15,12.417 Q16.583,13.876 16.583,16.292 Q16.583,18 15.625,19.418 Q14.667,20.833 12.791,21.668 Q10.916,22.501 8.291,22.501 Q5.583,22.501 3.729,21.583 z" fill="#888888"/>
             <path d="M24.041,21.668 Q22.333,20.833 21.313,19.418 Q20.292,18 20.292,16.292 Q20.292,13.542 22.521,11.792 Q24.751,10.042 28.542,9.542 L35.125,8.625 L35.125,7.167 Q35.125,4.875 33.729,3.647 Q32.334,2.417 29.458,2.417 Q27.334,2.417 25.979,3.251 Q24.625,4.084 24.25,5.25 Q24.084,5.75 23.854,5.938 Q23.625,6.125 23.25,6.125 L22.667,6.125 Q22.292,6.125 22.021,5.854 Q21.75,5.583 21.75,5.208 Q21.75,4.292 22.583,3.062 Q23.417,1.834 25.167,0.917 Q26.917,0 29.458,0 Q33.917,0 35.792,2.125 Q37.667,4.25 37.667,7.292 L37.667,21.167 Q37.667,21.583 37.417,21.834 Q37.167,22.084 36.75,22.084 L36.042,22.084 Q35.626,22.084 35.375,21.834 Q35.125,21.583 35.125,21.167 L35.125,19.208 Q34.208,20.583 32.438,21.542 Q30.667,22.501 27.75,22.501 Q25.75,22.501 24.041,21.668 z M33.167,18.083 Q35.125,16.083 35.125,12.334 L35.125,10.916 L29.75,11.667 Q26.334,12.125 24.583,13.25 Q22.833,14.375 22.833,16.083 Q22.833,18 24.437,19.042 Q26.042,20.084 28.166,20.084 Q31.208,20.084 33.167,18.083 z" fill="#888888"/>
@@ -48,7 +30,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
         <p>
-	<!--<a href="/ewm/">SAP EWM</a><br>-->
+        	<!--<a href="/ewm/">SAP EWM</a><br>-->
           <a href="/archive">Archive</a><br>
           <a href="/articles">Articles</a><br>
           <a href="/gui-user/transaction-helper">GUI transactions</a><br>
@@ -58,7 +40,7 @@
         </p>
 
         {% if site.show_downloads %}
-          <ul>
+          <ul class="downloads">
             <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
             <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
@@ -78,29 +60,6 @@
         </p>
       </footer>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-
-    <!--Old Google Analytics-->
-    {% if site.google_analytics %}
-      <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-          ga('create', '{{ site.google_analytics }}', 'auto');
-          ga('send', 'pageview');
-      </script>
-    {% endif %}
-      
-    <!--New GA4 Google Analytics-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D2QFZWV3HG"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-D2QFZWV3HG');
-    </script>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

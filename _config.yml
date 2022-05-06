@@ -1,8 +1,13 @@
 theme: jekyll-theme-minimal
 url: "https://sap.how" # the base hostname & protocol
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-default-layout
+
 permalink: /:categories/:title
+
 tipue_search:
   include:
     pages: true

@@ -1,19 +1,15 @@
-# Articles
+---
+title: Articles
+permalink: /articles
+---
 
-## Contents
+<h1>Articles</h1>
 
-- [Latest articles](#latest-articles)
-- [SAP GUI](#sap-gui)
-  - [Settings](#settings)
-  - [Support](#support)
-  - [Design](#design)
-  - [Authorizations](#authorizations)
-  - [Basis](#basis)
-- [SAP EWM](#sap-ewm)
-  - [Design](#ewm-design)
-  - [Management](#management)
-  - [Development](#development)
-  
+<h2>List of contents</h2>
+
+* This will become a table of contents (this text will be scrapped).
+{:toc}
+
 ---
   
 ## Latest articles
@@ -27,57 +23,23 @@
 
 ---
 
-## SAP GUI
+## Categories
 
-### Settings
-
-{% for post in site.categories.gui-settings %}
-  - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-### Support
-
-{% for post in site.categories.gui-support %}
-  - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-### Design
-
-{% for post in site.categories.gui-design %}
-  - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-### Authorizations
-
-{% for post in site.categories.gui-authorizations %}
-  - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-### Basis
-
-{% for post in site.categories.gui-basis %}
-  - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
----
-
-## SAP EWM
-
-
-### EWM Design
-
-{% for post in site.categories.ewm-design %}
-  - [{{ post.title }}]({{ post.url }})
+{% capture categories %}
+  {% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    |{{ category_name }}#
+<ul>
+    {% for post in site.categories[category_name] %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+    {% endfor %}
+</ul>
   {% endfor %}
+{% endcapture %}
+{% assign sortedcategories = categories | split: '|' | sort %}
 
-### Management
-
-{% for post in site.categories.ewm-management %}
-  - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-### Development
-
-{% for post in site.categories.ewm-development %}
-  - [{{ post.title }}]({{ post.url }})
+{% for item in sortedcategories offset:1 %}
+{% assign categoryitems = item | split: '#' %}
+### {{ categoryitems[0] | upcase }}
+{{ categoryitems[1] }}
 {% endfor %}

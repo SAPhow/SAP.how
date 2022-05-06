@@ -3,3 +3,5 @@ Gemfile.lock
 .jekyll-cache
 .vscode
 _site
+.sass-cache
+*.gem

@@ -1,6 +1,6 @@
 ---
 title: How to read transaction user default values in SAP EWM?
-categories: ewm-developmnet
+categories: ewm-development
 author: Vasiliy Kharitonov
 systems:
   SAP EWM 9.4

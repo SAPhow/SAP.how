@@ -1,6 +1,7 @@
 ---
 title: How to count SAP EWM delivery items in an existing system?
 categories: ewm-basis
+tags: s4hana, PCE
 author: Vasiliy Kharitonov
 systems:
 - SAP EWM 9.4

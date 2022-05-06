@@ -1,6 +1,6 @@
 ---
 title: How to use TVARVC parameter table in developments?
-categories: ewm-developmnet
+categories: ewm-development
 author: Vasiliy Kharitonov
 systems:
   SAP EWM 9.4
