@@ -3,6 +3,11 @@
 
 @import "jekyll-theme-minimal";
 
+a:hover, a:focus {
+  color: #3fc1e6;
+  font-weight: normal;
+}
+
 @media all and (min-width: 961px) {
   /*styles for width more than narrow desktop browsers or iPad landscape */
   header, footer {
