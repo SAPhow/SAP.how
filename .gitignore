@@ -1,1 +1,5 @@
 .DS_Store
+Gemfile.lock
+.jekyll-cache
+.vscode
+_site
