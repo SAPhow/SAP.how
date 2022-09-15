@@ -29,7 +29,7 @@ class. It should be possible to maintain this table in any client.
 According to the note
 [3218973](https://launchpad.support.sap.com/#/notes/3218973) SAP did fix this
 issue in the release `75H` support package `SAPK-75H01INSAPABA` of the software
-component `SAP_ABA`. So, the solution is to upgrade to the according bersion of
+component `SAP_ABA`. So, the solution is to upgrade to the according version of
 the component.
 
 In case you need a temporary workaround, you could open your quality
