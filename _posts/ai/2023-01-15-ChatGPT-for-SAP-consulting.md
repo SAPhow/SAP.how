@@ -128,8 +128,11 @@ complicated topic.
 > inspection lots in the ERP system. The specific BAPIs that are used for this
 > purpose are:
 > 
-> * `BAPI_INSPLOT_CREATE` * `BAPI_INSPLOT_CHANGE` * `BAPI_INSPLOT_GETDETAIL` *
-> `BAPI_INSPLOT_SAVEDATA` * `BAPI_INSPLOT_CREATEFROMDATA`
+> * `BAPI_INSPLOT_CREATE`
+> * `BAPI_INSPLOT_CHANGE`
+> * `BAPI_INSPLOT_GETDETAIL`
+> * `BAPI_INSPLOT_SAVEDATA`
+> * `BAPI_INSPLOT_CREATEFROMDATA`
 > 
 > It is not a business event, but it's a set of function modules. These BAPIs can
 > be called from an external system or custom program to create, update, or
@@ -149,8 +152,8 @@ complicated topic.
 > code.
 > 
 > * `QPLEXT_LOT_CHANGE` is an enhancement point of the change BAPI for Inspection
-> Lot. It allows you to add custom logic to the change BAPI for Inspection Lot *
-> `QPLEXT_LOT_DECISION` is an enhancement point for the inspection decision. It
+> Lot. It allows you to add custom logic to the change BAPI for Inspection Lot
+> * `QPLEXT_LOT_DECISION` is an enhancement point for the inspection decision. It
 > allows you to add custom logic to the inspection decision process.
 > 
 > You can implement these BAdIs in your system to add custom logic to the
