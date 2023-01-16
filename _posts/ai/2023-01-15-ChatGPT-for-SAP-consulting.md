@@ -220,7 +220,7 @@ exists for some time already.
 
 Regarding the questions I had, ChatGPT showed to be familiar with the concept,
 however, it could not answer my question. The more important issue is that
-ChatGPT didn't confessed that it doesn't know the answer. It chose to made up
+ChatGPT didn't confess that it doesn't know the answer. It chose to made up
 something, that would look like an answer instead.
 
 You could also see this behaviour in the next conversation we had regarding MDG.
