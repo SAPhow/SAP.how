@@ -12,9 +12,9 @@ tags:
 author: Vasiliy Kharitonov
 ---
 
-I was exploring OpenAI's ChatGPT with a question in mind: "Can it be usefull for
-SAP Consultant?". Short answer is yes. However, this is not panacea, you have to
-keep some important restrictions in mind.
+I was exploring OpenAI's ChatGPT with a question in mind: "Can it be usefull
+for SAP Consultants?". Short answer is yes. However, this is not a panacea, and
+you have to keep some important restrictions in mind.
 
 ## Conversation with ChatGPT on IDocs
 
@@ -213,15 +213,15 @@ complicated topic.
 > official documentation of your S/4HANA version.
 
 First of all, I am impressed that he knows the difference between BAPIs and
-business events. I am sure, most of the consultants could not tell me what is a
-business event: it is quite new in SAP world. Possibly ChatGPT is taking
-advantage of his knowledge from adjacent (not SAP) topics, where this concept
-exists for some time already.
+business events. I am sure that most of consultants could not tell me what a
+business event is, as it is quite new in the SAP world. Possibly ChatGPT is
+taking advantage of his knowledge from adjacent (not SAP) topics, where this
+concept exists for some time already.
 
 Regarding the questions I had, ChatGPT showed to be familiar with the concept,
 however, it could not answer my question. The more important issue is that
-ChatGPT didn't confess that it doesn't know the answer. It chose to made up
-something, that would look like an answer instead.
+ChatGPT didn't confess that it doesn't know the answer. It chose to make up
+something that would look like an answer instead.
 
 You could also see this behaviour in the next conversation we had regarding MDG.
 
@@ -262,19 +262,19 @@ You could also see this behaviour in the next conversation we had regarding MDG.
 > You also can use this transaction to find the mapping entries for a specific
 > key or to navigate through the mapping entries of a specific namespace.
 
-I am quite sure the transaction `MDG_KK_MAPPING` is made up. ChatGPT didn't
-know (or didn't care) about the real one, so he created something that looks
-real, but doesn't work.
+I am quite sure that the transaction `MDG_KK_MAPPING` is made up. ChatGPT
+didn't know (or didn't care) about the real one, so he created something that
+looks real, but doesn't work.
 
 It should be quite obvious, but I believe ChatGPT doesn't know a difference
 between saying something based on it's knowledge and just making something up,
-that is actually not true. We expect this by default from all humans, so I
-expected it from ChatGPT as well.
+that is actually not true. We expect this as a default from all humans, so I
+expected the same from ChatGPT.
 
 ## Summary
 
 ChatGPT actually knows a lot about SAP and can be quite useful for SAP
-Consultants. The main usage I see is having a very smart [rubber
+consultants. The main usage I see is having a very smart [rubber
 duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) for a quick
 brainstorm.
 
