@@ -254,7 +254,7 @@ You could also see this behaviour in the next conversation we had regarding MDG.
 > 
 > **ChatGPT:**
 > 
-> In SAP MDG, the transaction to view key mappings is "`MDG_KK_MAPPING`".
+> In SAP MDG, the transaction to view key mappings is `MDG_KK_MAPPING`.
 > 
 > You can use this transaction to view, create, change, and delete key mappings
 > in SAP MDG.
