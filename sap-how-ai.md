@@ -42,6 +42,8 @@ permalink: /sap-how-ai
     });
 </script>
 
+<p>Please note, this experiment didn't work out as expected. Even though the AI sometimes provides better asnwers than GPT-3.5, GPT-4 usually provides better answers even without fine-tuning.</p>
+
 <p>SAP.how AI is a GPT-3.5-based machine learning model that has been fine-tuned using high-quality SAP-related data. We used the OpenAI API to optimize the model's effectiveness for answering questions about SAP products, <strong>focusing on those related to SAP EWM functionality</strong>. Knowledge about other SAP systems might be delivered in future. While the model doesn't know everything, it should be able to provide helpful insights for SAP consulting.</p>
 
 <p>At present, users can access the model for free, but there is a monthly usage limit. Once the limit is reached, the model will become unavailable until the next month.</p>
