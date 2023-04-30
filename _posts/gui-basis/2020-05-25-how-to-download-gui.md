@@ -11,10 +11,15 @@ from SAP. You need 2 prerequisites to be able to do it:
 - You should have enough authorizations to perform downloads with your SAP user
   account.
 
-The first one is easy, you can even register it yourself. For the second one
-your usually need to ask IT department of your employer to provide sufficient
-access for your SAP user. In this case you should use the same SAP user that was
-provided by your employer.
+SAP user is provided to you by a company that is either SAP customer or SAP
+partner (or SAP itself). You could register a similar personal account (P-user)
+yourself, but I don't think it can be used to download SAP GUI. If you don't
+have SAP user, you should be able to ask your company's SAP account
+administrator to create you one.
+
+For the second prerequisite your usually need to ask IT department of your
+employer to provide sufficient access for your SAP user. In this case you
+should use the same SAP user that was provided by your employer.
 
 To download the latest SAP GUI, you should perform the following actions:
 
