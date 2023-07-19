@@ -53,3 +53,6 @@ receive within the IDoc.
 **`WE57`**. You should have enough authorizations and a Workbench request to
 make changes in this table. In this case use the process code that assigned to
 the corresponding Functional Module, e.g. `DELS`.
+
+If you receive an error `E0623` __Link between log. message &1 and IDoc type
+doesn't exist__, you need to first link them in the transaction **`WE82`**.
