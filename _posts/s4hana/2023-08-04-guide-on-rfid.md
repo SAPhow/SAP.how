@@ -122,6 +122,3 @@ As of 2022, SAP supports the following processes:
 - **Custom Actions**: SAP provides a BAdI to enable the creation of custom
   actions that the system will execute automatically after scanning an RFID
   tag.
-
-If you have comments or suggestions, please feel free to [Raise an issue in our
-GitHub Repository](https://github.com/SAPhow/SAP.how/issues).
