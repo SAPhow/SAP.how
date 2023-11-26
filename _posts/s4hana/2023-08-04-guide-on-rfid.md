@@ -40,8 +40,8 @@ The S/4HANA EWM requirements in this context are:
   HU or bin upon movement to a destination, or provide a bin instead of an HU.
   The system needs to handle these errors effectively to avoid confusing FLT
   drivers.
-- In this scenario, there's also a need to connect a scanner to the RFID
-  device, a requirement that extends to SAP S/4HANA itself.
+- In this scenario, there's also a need to connect an RFID scanner to the RF
+  terminal device device, a requirement outside of SAP S/4HANA itself.
 
 ### Handling Goods Without RF Terminals
 
@@ -53,8 +53,8 @@ system autonomously records movements in the background.
 This method is the only one supported by standard SAP (more details on this
 later). It typically involves RFID tags on pallets and resources (like forklift
 trucks), with stationary scanners at source/destination locations (such as RFID
-gates before loading docks). For error handling, indicator lights can be used
-to confirm successful movements (green light) or indicate errors (red light).
+gates before loading docks). For error handling, you can introduce indicator
+lights to visually confirm successful movements.
 
 The requirements for S/4HANA EWM in this scenario include:
 - Supporting RFID goods handling without RF terminals.
@@ -67,15 +67,15 @@ The requirements for S/4HANA EWM in this scenario include:
 In the standard SAP environment, the primary supported method for working with
 RFID is through the SAP Auto-ID Infrastructure (SAP AII). This is technically a
 distinct system from SAP S/4HANA and offers capabilities for connecting
-RFID-specific equipment like RFID scanners. It also provides functionality for
-creating RFID identifiers and decoding RFID tags.
+RFID-specific equipment like RFID scanners and printers. It also provides
+functionality for creating RFID identifiers and decoding RFID tags.
 
 ### Creating RFID Identifications (EPC, SSCC)
 
 To utilize standard functionality for creating identifiers like EPC (Electronic
 Product Code) and SSCC (Serial Shipping Container Code), integration with SAP
 AII is essential. EPC, a popular data format in RFID processes, is developed by
-GS1—the organization also known for SSCC. Although there's no direct SAP
+GS1 — the organization also known for SSCC. Although there's no direct SAP
 standard support for creating EPC/TDS RFID identifiers outside of SAP AII, the
 open format allows for custom implementation in ABAP or other languages using
 the relevant specifications.
@@ -103,10 +103,9 @@ support (that might not be trivial) and custom logic for decoding EPC binary
 strings into recognizable identifiers.
 
 A practical approach is to create a new barcode specification and implement the
-corresponding BAdI (Business Add-In) for decoding and identifying connected
-SSCC and/or other identifiers. Ensure that the intended screens support
-composite barcode input and that incorrect or duplicate inputs are processed
-efficiently.
+corresponding BAdI for decoding and identifying connected SSCC and/or other
+identifiers. Ensure that the intended screens support composite barcode input
+and that incorrect or duplicate inputs are processed efficiently.
 
 ### Supporting RFID Goods Handling without RF Terminals
 
@@ -125,4 +124,4 @@ As of 2022, SAP supports the following processes:
   tag.
 
 If you have comments or suggestions, please feel free to [Raise an issue in our
-GitHub](https://github.com/SAPhow/SAP.how/issues).
+GitHub Repository](https://github.com/SAPhow/SAP.how/issues).
