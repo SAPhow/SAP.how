@@ -8,7 +8,7 @@ systems:
 - SAP S/4HANA 2022
 ---
 
-This article provide a possible solution to the problem you might have: OData
+This article provides a possible solution to the problem you might have: OData
 service was not transported.
 
 ## Symptoms
