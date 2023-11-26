@@ -1,5 +1,5 @@
 ---
-title: Overview for RFID with S/4HANA EWM
+title: Overview of RFID with S/4HANA EWM
 categories:
 - S4HANA
 - EWM
@@ -8,113 +8,121 @@ systems:
 - SAP S/4HANA 2022
 ---
 
-This article is intended to be an overview of RFID functionality in combination
-with S/4HANA EWM. We will look at typical requirements (or business benefits),
-RFID architecture, standard support and processes and even some equipment.
+This article provides an overview of the integration of RFID technology with
+S/4HANA EWM (Extended Warehouse Management). We will explore the typical
+requirements or business benefits, the architecture of RFID, its standard
+support and processes, and also discuss some of the equipment involved.
 
-## Typical requirements for RFID in warehouse management
+## Typical requirements for RFID in Warehouse Management
 
-### Only printing and application
+### Printing and Application of RFID tags
 
-Here RFID labels or tags are not really used in EWM system aside from using the
-system for printing and label application. The tags will be used in the
-consequent steps, e.g. in customer system or in a Point of Sale system.
+In this scenario, RFID labels or tags are primarily used for printing and label
+application within the EWM system. The tags are subsequently utilized in later
+stages, such as in customer systems or Point of Sale systems.
 
-The requirements for S/4HANA EWM system in this case could be:
-- Creating a unique identification, that will be writenn on the label/tag.
+The S/4HANA EWM requirements here include:
+- Creating a unique identification, that will be writenn on the label/tag,
+  saving it in the database.
 - Creating a label and sending it to the corresponding printer.
 
-### Additional way to provide data for RF terminals
+### Additional Data Provision for RF Terminals
 
-In this case we allow FLT drivers to work "hands-free", they don't need to scan
-a bin barcode or an HU barcode with a hand scanner, it is done by RFID reader
-automatically based on proximity. This allows to increase safety and
-effectiveness of FLT drivers, although the benefits are quite limited in my
-point of view.
+This approach enables FLT (Fork Lift Truck) drivers to operate in a
+"hands-free" manner. They don't need to manually scan bin or HU (Handling Unit)
+barcodes, as RFID readers automatically perform these tasks based on proximity.
+This method enhances FLT driver safety and efficiency, though its benefits may
+be somewhat limited from my perspective.
 
-The requirements for S/4HANA EWM system in this case:
-- RFID data decoding for HU/bin input for RF screens.
-- Double/wrong input handling. RFID scanner could pick up a wrong HU or bin. Or
-  provide a bin instead of HU. If the systm displays errors for all those
-  accidental inputs, it will be confusing for FLT drivers.
+The S/4HANA EWM requirements in this context are:
+- Decoding RFID data for HU/bin input on RF screens.
+- Managing double or incorrect inputs. An RFID scanner might detect the wrong
+  HU or bin upon movement to a destination, or provide a bin instead of an HU.
+  The system needs to handle these errors effectively to avoid confusing FLT
+  drivers.
+- In this scenario, there's also a need to connect a scanner to the RFID
+  device, a requirement that extends to SAP S/4HANA itself.
 
-In this case I assume we also need a possibility to connect a scanner to RFID
-device, which might be not trivial, although this a requirement for SAP S/4HANA
-itself.
+### Handling Goods Without RF Terminals
 
-### Handling of goods without using RF terminals
+To reduce the investment in RF terminals and further enhance FLT driver
+efficiency, some processes, such as loading, can be managed without RF
+terminals. In these cases, FLT drivers operate without RF terminals, and the
+system autonomously records movements in the background.
 
-In order to decrease investments for RF terminals and increase efficiency for
-FLT drivers we can consider implementing process handling withouth RF terminals
-for some of the processes, e.g. loading. Thus, FLT drivers can work without RF
-terminals, the system will record the movements itself in a background.
+This method is the only one supported by standard SAP (more details on this
+later). It typically involves RFID tags on pallets and resources (like forklift
+trucks), with stationary scanners at source/destination locations (such as RFID
+gates before loading docks). For error handling, indicator lights can be used
+to confirm successful movements (green light) or indicate errors (red light).
 
-This setup is the only one supported in standard SAP, but more on that later.
-Here, we usually have RFID tags on pallets and resources (e.g. forklift trucks)
-and stationary scanners in source/destinaton location (e.g. RFID gates before
-loading docks). If error handling is needed, there could be also some indicator
-lights to confirm successful movmenet (with a green light) or indicate an error
-(with a red light).
-
-The requirements for S/4HANA EWM system in this case:
-- Support of RFID goods handling without a use of RF terminal.
+The requirements for S/4HANA EWM in this scenario include:
+- Supporting RFID goods handling without RF terminals.
 - Decoding RFID tags.
 
-## Typical solutions for RFID requirements
+## Typical Solutions for RFID Requirements in S/4HANA EWM
 
-In SAP standard the only supported way of working with RFID is implemented
-using SAP Auto-ID Infrastructure (SAP AII), that is technically a separate
-system from SAP S/4HANA. It implements possibilities to connect RFID-specific
-equipment (e.g. RFID scanners), as well as functionality to create RFID
-identifiers and decode RFID tags.
+### Implementing SAP Auto-ID Infrastructure (SAP AII)
 
-### Creating an RFID identification (EPC, SSCC)
+In the standard SAP environment, the primary supported method for working with
+RFID is through the SAP Auto-ID Infrastructure (SAP AII). This is technically a
+distinct system from SAP S/4HANA and offers capabilities for connecting
+RFID-specific equipment like RFID scanners. It also provides functionality for
+creating RFID identifiers and decoding RFID tags.
 
-As mentioned above, if you want this functionality to be standard, you need to
-implement SAP Auto-ID Infrastructure and integrate it with SAP S/4HANA to
-support creation of such identifiers. The most popular data format used in RFID
-processes is EPC (created by the same organization known for SSCC: GS1). Even
-though there is no standard SAP support for creating EPC/TDS RFID identifiers
-outside of SAP, the format is open, so you could implement it in ABAP (or other
-language) using the corresponding specification.
+### Creating RFID Identifications (EPC, SSCC)
 
-After generating the corresponding identification you can use SAP standard data
-structures for RFID (see table `/SCWM/EPC` and the processing logic from
-package `/SCWM/RFID`). As of 2022 there is support for HUs, Products and
-Resources.
+To utilize standard functionality for creating identifiers like EPC (Electronic
+Product Code) and SSCC (Serial Shipping Container Code), integration with SAP
+AII is essential. EPC, a popular data format in RFID processes, is developed by
+GS1—the organization also known for SSCC. Although there's no direct SAP
+standard support for creating EPC/TDS RFID identifiers outside of SAP AII, the
+open format allows for custom implementation in ABAP or other languages using
+the relevant specifications.
+
+After generating the necessary identifications, you can employ SAP's standard
+data structures for RFID (refer to table `/SCWM/EPC` and the processing logic
+from package `/SCWM/RFID`). As of 2022, this support extends to Handling Units,
+Products, and Resources.
 
 ### Printing RFID labels
 
-SAP AII (Auto-ID Infrastructure) can be used to support the printing (and
-integrate with RFID printers) in standard SAP. If you want to print directly
-from SAP S/4HANA without SAP AII, you could also do it by implementing a
-development. The development should be specific to the printer, e.g. for Zebra
-printers RFID contents can be passed using ZPL, while SAP supports including
-ZPL code to its smartforms. [An example of integration with Zebra R110Xi4 RFID
+SAP AII can also facilitate the printing of RFID labels and integration with
+RFID printers. If direct printing from SAP S/4HANA is desired without SAP AII,
+custom development tailored to specific printers is required. For instance,
+Zebra printers can accept RFID content through ZPL (Zebra Programming
+Language), and SAP can incorporate ZPL code into its smartforms. [An example of
+integration with Zebra R110Xi4 RFID
 Printer](https://blogs.sap.com/2012/05/10/zebra-rfid-smartforms-ascii/).
 
-### RFID data input for RF screens
+### RFID Data Input for RF Screens
 
-For this scenario we assume you connect RFID scanners to RF terminals in order
-to automate input without using barcode scanners. Hardware support might not be
-trivial and additionally you will need to implement your logic for decoding EPC
-binary strings to the corresponding identifiers.
+This scenario involves connecting RFID scanners to RF terminals to automate
+input, bypassing the need for barcode scanners. It requires both hardware
+support (that might not be trivial) and custom logic for decoding EPC binary
+strings into recognizable identifiers.
 
-The logical solution is to create a new barcode specification and implement the
-corresponding BAdI for decoding and determination of connected SSCC. Make sure
-that indended screens do support composite barcode input and make sure
-wrong/double input is processed correctly.
+A practical approach is to create a new barcode specification and implement the
+corresponding BAdI (Business Add-In) for decoding and identifying connected
+SSCC and/or other identifiers. Ensure that the intended screens support
+composite barcode input and that incorrect or duplicate inputs are processed
+efficiently.
 
-### Support of RFID goods handling without the use of RF terminal
+### Supporting RFID Goods Handling without RF Terminals
 
-This requirement is supported by SAP AII in standard, so I recomend to
-implement SAP AII system and integrate it with SAP S/4HANA to solve it.
+This requirement is standardly supported by SAP AII. Therefore, implementing
+and integrating SAP AII with SAP S/4HANA is recommended for addressing this
+need.
 
-The following processes are supported by SAP as of 2022:
-- Automatic loading and unloading. Upon reading pallet RFID by a fixed scanner,
-  the status of HU connected to inbound/outbound delivery automatically
-  changes.
-- Automatic packing using RFID. Use a fixed scanner to automatically update HU
-  hierarchy by reading the corresponding RFID tags or labels.
-- Your own actions. There is a BAdI to create your own actions that system will
-  perform automatically after scanning the RFID tag.
+As of 2022, SAP supports the following processes:
+- **Automatic Loading and Unloading**: Utilizes fixed scanners to automatically
+  update the status of Handling Units linked to inbound or outbound deliveries
+  upon reading pallet RFID.
+- **Automatic Packing Using RFID**: Employs fixed scanners to update HU
+  hierarchy automatically by scanning corresponding RFID tags or labels.
+- **Custom Actions**: SAP provides a BAdI to enable the creation of custom
+  actions that the system will execute automatically after scanning an RFID
+  tag.
+
+If you have comments or suggestions, please feel free to [Raise an issue in our
+GitHub](https://github.com/SAPhow/SAP.how/issues).
